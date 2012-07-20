@@ -1,0 +1,90 @@
+*{
+		font-family: 'Cantarell', sans-serif;
+		font-weight:700;
+		color:rgb(80,80,80);
+		padding:0px;
+		margin:0px;
+}
+#header{
+		width:100%;
+		height:150px;
+		background:black;
+}
+#header-img-container{
+		width:64px;
+		margin:auto;
+		padding-top:20px;
+}
+#message{
+		width:800px;
+		font-size:18px;
+		margin:auto;
+		padding-bottom:20px;
+}
+/* 		----------------------------------------- Login Container ------------------------------ */
+#login-wrapper{
+		width:700px;
+		margin:auto;
+}
+.form-element{
+		width:200px;
+		height:25px;
+		margin-left:10px;
+		margin-right:10px;
+		display:inline-block;
+}
+.form-input{
+		width:100%;
+		height:100%;
+		text-align:center;
+		background:black;
+		color:rgb(205,20,20);
+		border:none;
+}
+input::-webkit-input-placeholder {
+		color:rgb(205,20,20);
+		font-family: 'Cantarell', sans-serif;
+		font-weight:700;
+}
+.form-input:focus{
+		outline:solid;
+		outline-color:rgb(205,20,20);
+		outline-width:medium;
+}
+#form-submit{
+		display:inline-block;
+		height:25px;
+		width:200px;
+		background:black;
+		color:rgb(205,20,20);
+		border:none;
+		padding-top:1px;
+}
+#form-submit:hover{
+		cursor:pointer;
+		color:black;
+		background:rgb(205,20,20);
+		border:1px solid;
+}
+#form-submit:active{
+		outline:solid;
+		outline-width:thin;
+		background:rgb(191,0,0);
+}
+#login-subContainer{
+		padding-top:5px;
+}
+#login-persistence{
+		margin-left:10px;
+}
+#login-label{
+		margin-left:12px;
+		color:rgb(60,60,60);
+		font-size:12px;
+}
+#login-fPassword{
+		margin-left:106px;
+		text-decoration:none;
+		color:rgb(60,60,60);
+		font-size:12px;
+}

@@ -1,0 +1,4 @@
+Options -Indexes
+ErrorDocument 403 http://hummingbirdapplication.com/
+ErrorDocument 404 http://hummingbirdapplication.com/error.html
+

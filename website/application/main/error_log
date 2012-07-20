@@ -1,0 +1,1 @@
+[09-Jun-2012 19:08:54] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/nhandyal/public_html/application/main/index.php:3) in /home/nhandyal/public_html/application/main/index.php on line 5

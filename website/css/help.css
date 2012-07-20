@@ -1,0 +1,56 @@
+*{
+		font-family: 'Cantarell', sans-serif;
+		font-weight:700;
+		color:rgb(80,80,80);
+		padding:0px;
+		margin:0px;
+}
+#header{
+		width:100%;
+		height:150px;
+		background:black;
+}
+#header-img-container{
+		width:64px;
+		margin:auto;
+		padding-top:20px;
+}
+/* 		----------------------------------------- Page Content ------------------------------ */
+.red{
+		color:rgb(205,20,20);
+}
+#page-content{
+		width:900px;
+		margin:auto;
+}
+#title{
+		font-size:22px;
+		width:300px;
+		margin:auto;
+}
+#message{
+		text-align:justify;
+		margin-top:20px;
+}
+.section{
+		margin-top:25px;
+}
+.section-header{
+		font-size:30px;
+		color:rgb(205,20,20);
+}
+.sub-section-header{
+		font-size:22px;
+		color:rgb(205,20,20);
+		margin-top:10px;
+		margin-bottom:5px;
+}
+.description-text{
+		font-size:12px;
+}
+.img-add{
+		margin:0px 45px;
+}
+.clear{
+		clear:both;
+}
