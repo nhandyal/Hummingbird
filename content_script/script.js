@@ -40,9 +40,31 @@ $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber
 		$('.plus-icon-hummingbird').css({"background": localPath});
 		
 		// add click event listener to plus-icon-hummingbird class and add class
-		$('.plus-icon-hummingbird').click(function(){
-				var sectionNumber = $(this).children('.sectionNumber').val();
-				var courseIndex = $(this).children('.courseIndex').val();
-				var sectionIndex = $(this).children('.sectionIndex').val();
-		});
+		$('.plus-icon-hummingbird').click(function(){addClass();});
+		
 });
+
+function addClass(){
+		var sectionNumber = $(this).children('.sectionNumber').val();
+		var courseIndex = $(this).children('.courseIndex').val();
+		var sectionIndex = $(this).children('.sectionIndex').val();
+		if(checkLogIn() != "1"){
+				$.fancybox({
+						"content" : "<div>You must be logged in</div>"
+				});
+		}
+}
+
+function checkLogIn(){
+		var loggedIn;
+		$.ajax({
+						type: "GET",
+						async: false,
+						url: "http://www.hummingbirdapplication.com/application/extension/ex-loggedIn.php",
+						success: function(response){
+								loggedIn = response;
+						}
+				}
+		);
+		return loggedIn;
+}
