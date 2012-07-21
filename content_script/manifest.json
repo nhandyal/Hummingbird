@@ -8,11 +8,12 @@
         "48": "images/icon48.png",
         "128": "images/icon128.png"
         },
-    
+		
     "content_scripts": [
 				{
 						"matches": ["http://web-app.usc.edu/soc/*"],
 						"js": ["jquery-1.7.1.min.js","script.js"],
+						"css": ["script.css"],
 						"include_globs": ["http://web-app.usc.edu/soc/?????/*"]
 				}
 		],

@@ -1,0 +1,14 @@
+.plus-icon-hummingbird{
+		position:relative;
+		left:-65px;
+		display:inline-block;
+		width:10px;
+		height:10px;
+		background-repeat:no-repeat;
+		background-size:10px;
+		margin-right:7px;
+		margin-left:3px;
+}
+.plus-icon-hummingbird:hover{
+		cursor:pointer;
+}
