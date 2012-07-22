@@ -49,10 +49,23 @@ function addClass(){
 		var courseIndex = $(this).children('.courseIndex').val();
 		var sectionIndex = $(this).children('.sectionIndex').val();
 		if(checkLogIn() != "1"){
+				var loginHTML = "<div id='page-content'><p id='error-message'>Login to Hummingbird</p><div id='login-wrapper'><form id='login' action='' method='post' autocomplete='off'><div class='login-subContainer'>";
+				loginHTML += "<input type='email' class='textfields' id='login-email' name='email' placeholder='e-mail' required='required'/><input type='password' class='textfields' id='login-pwd' name='pwd' placeholder='password' required='required'/><input type='submit' id='login-submit' value='login'/></div>"
+				loginHTML	+= "<div class='login-subContainer'><input id='login-persistence' type='checkbox' name='persistence' value='1'/><span id='login-label'>Remember me</span><a id='login-fPassword'>Forgot your password?</a></div></form></div></div>"
 				$.fancybox({
-						"content" : "<div>You must be logged in</div>"
+						"content" : loginHTML
+				});
+				var localPath = chrome.extension.getURL("fancybox/fancy_close.png");
+				var background = "transparent url('"+localPath+"')";
+				$('#fancybox-close').css({"background":background});
+				$('#login-fPassword').click(function(){
+						fgpwd();
 				});
 		}
+}
+
+function fgpwd(){
+		chrome.extension.sendRequest("fgpwd");
 }
 
 function checkLogIn(){
