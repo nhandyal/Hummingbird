@@ -70,7 +70,27 @@ function addClass(){
 				$('#login').submit(function(e){
 						console.log(e);
 						console.log("submit clicked");
+						$.ajax({
+								type: "POST",
+								async: false,
+								url: "http://www.hummingbirdapplication.com/application/extension/ex-login.php",
+								data: {
+										email 			: $('#login-email').val(),
+										pwd					: $('#login-pwd').val(),
+										persistence :	$('#login-persistence').val()
+								},
+								success: function(response){
+										var jsonResponse = JSON.parse(response);
+										if(jsonResponse.status == 0){
+												console.log("valid login");
+										}
+										else{
+												$('#error-message').text(jsonResponse.message);
+										}
+								}
+						});
 						e.preventDefault();
+						return false;
 				});
 				
 		}

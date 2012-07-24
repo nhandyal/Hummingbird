@@ -26,10 +26,9 @@
 		if($err == 0){
 				//make sure information was supplied from the form
 				if(!isset($_POST['email'])){
-						//header( 'Location: /' );
-						print_r($_POST);
 						exit(0);
 				}
+				
 				//open connection to the database
 				require_once("application/global/includes/db-open.php");
 				
