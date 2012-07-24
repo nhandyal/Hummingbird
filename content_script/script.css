@@ -80,3 +80,6 @@ input::-webkit-input-placeholder {
 		color:rgb(60,60,60);
 		font-size:12px;
 }
+#login-fPassword{
+		cursor:pointer;
+}

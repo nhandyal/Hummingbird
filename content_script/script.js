@@ -27,6 +27,8 @@ $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber
 								var id = sectionData.id;
 								if(sectionData.number_registered >= sectionData.spaces_available){
 										var iconHTML = "<div class='plus-icon-hummingbird'>";
+										iconHTML += "<input type='hidden' class='term' value='"+termNumber+"'/>";
+										iconHTML += "<input type='hidden' class='dept' value='"+departmentName+"'/>";
 										iconHTML += "<input type='hidden' class='sectionNumber' value='"+id+"' />";
 										iconHTML += "<input type='hidden' class='courseIndex' value='"+courseIndex+"'/>";
 										iconHTML += "<input type='hidden' class='sectionIndex' value='"+sectionIndex+"'/></div>";
@@ -45,22 +47,32 @@ $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber
 });
 
 function addClass(){
+		var term = $(this).children('.termNumber').val();
+		var dept = $(this).children('.dept').val();
 		var sectionNumber = $(this).children('.sectionNumber').val();
 		var courseIndex = $(this).children('.courseIndex').val();
 		var sectionIndex = $(this).children('.sectionIndex').val();
 		if(checkLogIn() != "1"){
-				var loginHTML = "<div id='page-content'><p id='error-message'>Login to Hummingbird</p><div id='login-wrapper'><form id='login' action='' method='post' autocomplete='off'><div class='login-subContainer'>";
-				loginHTML += "<input type='email' class='textfields' id='login-email' name='email' placeholder='e-mail' required='required'/><input type='password' class='textfields' id='login-pwd' name='pwd' placeholder='password' required='required'/><input type='submit' id='login-submit' value='login'/></div>"
-				loginHTML	+= "<div class='login-subContainer'><input id='login-persistence' type='checkbox' name='persistence' value='1'/><span id='login-label'>Remember me</span><a id='login-fPassword'>Forgot your password?</a></div></form></div></div>"
+				var loginHTML = "<div id='page-content'><p id='error-message'>Login to Hummingbird</p><div id='login-wrapper'><form id='login' method='post' autocomplete='off'><div class='login-subContainer'>";
+				loginHTML += "<input type='email' class='textfields' id='login-email' name='email' placeholder='e-mail' required='required'/><input type='password' class='textfields' id='login-pwd' name='pwd' placeholder='password' required='required'/><input type='submit' id='login-submit' value='login'/></div>";
+				loginHTML	+= "<div class='login-subContainer'><input id='login-persistence' type='checkbox' name='persistence' value='1'/><span id='login-label'>Remember me</span><a id='login-fPassword'>Forgot your password?</a></div></form></div></div>";
 				$.fancybox({
 						"content" : loginHTML
 				});
 				var localPath = chrome.extension.getURL("fancybox/fancy_close.png");
 				var background = "transparent url('"+localPath+"')";
 				$('#fancybox-close').css({"background":background});
+				
+				// add fnacybox event listeners
 				$('#login-fPassword').click(function(){
 						fgpwd();
 				});
+				$('#login').submit(function(e){
+						console.log(e);
+						console.log("submit clicked");
+						e.preventDefault();
+				});
+				
 		}
 }
 
