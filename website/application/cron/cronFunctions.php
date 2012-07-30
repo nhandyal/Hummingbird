@@ -37,7 +37,7 @@
 						
 						// Getting results
 						$servResponse =  curl_exec($ch); // Getting jSON result string
-						echo substr($servResponse,0,50)."<br/>";
+						
 						
 						$term = $r['term'];
 						$deptAbbreviation = $r['deptAbbreviation'];
@@ -177,6 +177,6 @@
 		// CLOSE DB CONNECTION -- PROCEDURAL
 		require_once("../global/includes/db-close.php");
 		
-		echo "<br/><br/>Cron Completed At: ".date("m-d-y -- h:i A" ,time());
+		
 		
 ?>

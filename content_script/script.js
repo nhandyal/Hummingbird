@@ -1,9 +1,17 @@
+// create logout nav menu item and add event listener
+var hummingBirdLoagout = "<div id='hb-logout'>Logout of Hummingbird</div>";
+$('#nav').append(hummingBirdLoagout);
+$('#hb-logout').click(function(){
+		hbLogout();
+});
+
 var pgURL = window.location.href;
 pgURL = pgURL.replace("http://web-app.usc.edu/soc/","");
 var termNumber = pgURL.substr(0,5);
 var departmentName = pgURL.substr(6);
 
 
+// add addable icons to full classes
 $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber,{},function(response){
 		var jsonResponse = JSON.parse(response);
 		for (var courseIndex = 0; courseIndex < (jsonResponse.OfferedCourses.course).length; courseIndex++){
@@ -44,6 +52,10 @@ $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber
 		// add click event listener to plus-icon-hummingbird class and add class
 		$('.plus-icon-hummingbird').click(function(){addClass();});
 		
+		// show logout option if user is logged in
+		if(checkLogIn()=="1"){
+				showLogout();
+		}
 });
 
 function addClass(){
@@ -68,8 +80,6 @@ function addClass(){
 						fgpwd();
 				});
 				$('#login').submit(function(e){
-						console.log(e);
-						console.log("submit clicked");
 						$.ajax({
 								type: "POST",
 								async: false,
@@ -82,7 +92,7 @@ function addClass(){
 								success: function(response){
 										var jsonResponse = JSON.parse(response);
 										if(jsonResponse.status == 0){
-												console.log("valid login");
+												showLogout();
 										}
 										else{
 												$('#error-message').text(jsonResponse.message);
@@ -91,8 +101,10 @@ function addClass(){
 						});
 						e.preventDefault();
 						return false;
-				});
-				
+				});	
+		}
+		else{
+				console.log("user already logged in");
 		}
 }
 
@@ -112,4 +124,20 @@ function checkLogIn(){
 				}
 		);
 		return loggedIn;
+}
+
+// hide logout in nav bar
+function hideLogout(){
+		$("#hb-logout").css({"display":"none"});
+}
+// show logout in nav bar
+function showLogout(){
+		$("#hb-logout").css({"display":"inline-block"});
+}
+
+function hbLogout(){
+		$.get("http://www.hummingbirdapplication.com/application/extension/ex-logout.php",{},function(response){
+				if (response == "1")
+						hideLogout();
+		});
 }

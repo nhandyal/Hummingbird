@@ -1,3 +1,16 @@
+#hb-logout{
+		display:none;
+		float:right;
+		color:white;
+		font-size:13px;
+		padding-right:5px;
+		padding-top:3px;
+		font-weight:bold;
+}
+#hb-logout:hover{
+		cursor:pointer;
+		text-decoration:underline;
+}
 .plus-icon-hummingbird{
 		position:relative;
 		left:-65px;
