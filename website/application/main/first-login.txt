@@ -1,0 +1,31 @@
+<div id='first-login'>
+		<p id='welcome-message'>
+				Hey there and welcome to Hummingbird! Before you get started, we want to give you a quick overview of all the cool features available. If you are using Google Chrome, we highly recommend you <a href='https://chrome.google.com/webstore/detail/adbpoijidlpgogcfalangpplfoigeomn'>download</a> the Hummingbird Chrome Extension to make Hummingbird easier to use.
+		</p>
+		<div class='section'>
+				<div class='sub-section-header'>The Ribbon</div>
+				<div class='section-content'>
+						<img src='../images/help/dashboard.png' width='450' height='247' alt='The Ribbon' style='border:1px solid'/>
+						<div class='description-text'>
+								The ribbon is visible atop every page while you are logged into Hummingbird. Use it for quick access to various parts of the site.
+						</div>
+				</div>
+				<div class='sub-section-header'>Notifications</div>
+				<div class='section-content'>
+						<div class='description-text'>
+								By default you will always recieve e-mail notifications. To add text notifications head over to the <a href='settings.php'>settings</a> page to add a mobile number.
+						</div>
+				</div>
+				<div class='sub-section-header'>Adding Classes</div>
+				<div class='section-content'>
+						<img class='img-add' src='../images/help/course-browser.png' width='226' height='301' alt='Course-Browser' style='border:1px solid'/>
+						<a href='https://chrome.google.com/webstore/detail/adbpoijidlpgogcfalangpplfoigeomn'><img class='img-add' src='../images/help/extension-use.png' width='252' height='125' alt='Chrome-Extension' style='border:1px solid'/></a>
+						<div class='description-text'>
+								Adding classes to Hummingbird is a breeze. You have two options to add classes. The first is to use the inline course browser, and the second is to use the amazing <a href='https://chrome.google.com/webstore/detail/adbpoijidlpgogcfalangpplfoigeomn' style='color:inherit'>Google Chrome extension</a>. On the left is how the inline course browser looks and on the right is how the extension looks.<br/><br/>
+								To lower and raise the course browser, simply click on the Hummingbird logo in the upper left corner. When using the built in course browser there is a live search feature to make finding courses easier. Only classes that are bold can be added to your Hummingbird list.<br/><br/>
+								If you are using the Hummingbird Chrome Extension, simply navigate over to <a href='http://web-app.usc.edu/soc/' style='color:inherit'>USC's onine schedule of classes</a>. Find the class you want and simply click the little + icon next to the section you want.
+								<br/><br/><br/>
+						</div>
+				</div>
+		</div>
+</div>

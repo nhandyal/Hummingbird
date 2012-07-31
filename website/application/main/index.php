@@ -38,9 +38,10 @@
 				<div id="settings">
 						<ul>
 								<li><a href="settings.php">Settings</a></li>
-								<li><a href="logout.php">Logout</a></li>
-								<li id='settings-menu-divider'></li>
 								<li><a href="../../help.html">Help</a></li>
+								<!--<li><a href="">Contact</a></li>-->
+								<li id='settings-menu-divider'></li>
+								<li><a href="logout.php">Logout</a></li>
 						</ul>
 				</div>
 				<div id="header-container">
@@ -122,15 +123,26 @@
 								if(mysqli_num_rows($result) == 0){
 						?>
 										<div id='welcome-wrapper' class='unselectable'>
-												<div id='welcome-arrow' class='unselectable'></div>
 												<?php
-														if($userR['first_login'] == 1)
-																echo "<div id='welcome-caption' class='text-selectable'>Hey there and welcome to Hummingbird! To get a quick overview of all the amazing features Hummingbird offers, we highly reccomend you check out our Help page. If you're good to go, or just want to figure things out on your own, have at it! Click on the Hummingbird icon or use our awesome <a href='https://chrome.google.com/webstore/detail/adbpoijidlpgogcfalangpplfoigeomn' style='color:inherit'>Google Chrome extension</a> to begin adding classes.</div>";
-														else
-																echo "<div id='welcome-caption' class='text-selectable'>Hey there and welcome back to Hummingbird! You currently don't have any classes on your watch-list. Add some more classes by using the built in course browser or by using our awesome <a href='https://chrome.google.com/webstore/detail/adbpoijidlpgogcfalangpplfoigeomn' style='color:inherit'>Google Chrome Extension</a>.</div>";
+														if($userR['first_login'] == 1){
+																// user's first login, load help data
+																echo "<div id='first-login'></div>";
 												?>
-												<div id='welcome-guy' class='unselectable'></div>
-												<div id='painting-guy' class='unselectable'></div>
+																<script type='text/javascript'>
+																		$.get("first-login.txt",{},function(response){
+																				$('#first-login').html(response);
+																				$('#welcome-wrapper').css({"left":"0px"});
+																		});
+																</script>
+												<?php
+														}
+														else{
+																echo "<div id='welcome-arrow' class='unselectable'></div>";
+																echo "<div id='welcome-caption' class='text-selectable'>Hey there and welcome back to Hummingbird! You currently don't have any classes on your watch-list. Add some more classes by using the built in course browser or by using our awesome <a href='https://chrome.google.com/webstore/detail/adbpoijidlpgogcfalangpplfoigeomn' style='color:inherit'>Google Chrome Extension</a>.</div>";
+																echo "<div id='welcome-guy' class='unselectable'></div>";
+																echo "<div id='painting-guy' class='unselectable'></div>";
+														}
+												?>
 										</div>
 										<div id='hummingbird-logo-container' class='unselectable'><div id='hummingbird-logo'>HUMMINGBIRD</div></div>
 						<?php

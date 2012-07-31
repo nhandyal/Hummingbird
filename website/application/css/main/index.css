@@ -6,8 +6,7 @@
 		color:rgb(80,80,80);
 }
 body{
-		min-width:1280px;
-		width:100%;
+		width:1280px;
 }
 #black-overlay{
 		display:none;
@@ -593,4 +592,24 @@ body{
 #fancybox-button:hover{
 		cursor:pointer;
 		border-color:red;
+}
+#first-login{
+		width:90%;
+		margin:auto;
+		margin-top:50px;
+}
+#welcome-message{
+		text-align:center;
+}
+.sub-section-header{
+		font-size:22px;
+		color:rgb(205,20,20);
+		margin-top:10px;
+		margin-bottom:5px;
+}
+.description-text{
+		font-size:12px;
+}
+.img-add{
+		margin:0px 45px;
 }
