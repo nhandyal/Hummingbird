@@ -9,6 +9,7 @@ jQuery.expr[':'].contains = function(a, i, m) {
 $(document).ready(function(){
 		initializePage();
 
+		// Settings Toggle function
 		$('#settings-toggle').click(function(){
 				if($('.settings-visible').length == 0){
 						$('#settings').css("display","inline-block");
@@ -60,6 +61,7 @@ $(document).ready(function(){
 				return false;
 		});
 		
+		// Select term container drop down toggle
 		$('#select-term-container').click(function(){
 				if($('.term-container-visible').length == 0){
 						var containerPosition = $('#select-term-container').position();

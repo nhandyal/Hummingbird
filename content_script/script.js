@@ -10,6 +10,10 @@ pgURL = pgURL.replace("http://web-app.usc.edu/soc/","");
 var termNumber = pgURL.substr(0,5);
 var departmentName = pgURL.substr(6);
 
+// add global data to page
+var pagedata = "<input type='hidden' id='hb-term' value='"+termNumber+"'/>";
+pagedata += "<input type='hidden' id='hb-dept' value='"+departmentName+"'/>";
+$("body").append(pagedata);
 
 // add addable icons to full classes
 $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber,{},function(response){
@@ -20,11 +24,19 @@ $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber
 						// only one offered section
 						var sectionData = jsonResponse.OfferedCourses.course[courseIndex].CourseData.SectionData;
 						var id = sectionData.id;
+						var type = sectionData.type;
+						var time = sectionData.start_time+"-"+sectionData.end_time;
+						var days = sectionData.day;
+						var instructor = sectionData.instructor.last_name;
 						if(sectionData.number_registered >= sectionData.spaces_available){
 								var iconHTML = "<div class='plus-icon-hummingbird'>";
 								iconHTML += "<input type='hidden' class='sectionNumber' value='"+id+"' />";
 								iconHTML += "<input type='hidden' class='courseIndex' value='"+courseIndex+"'/>";
-								iconHTML += "<input type='hidden' class='sectionIndex' value='-1'/></div>";
+								iconHTML += "<input type='hidden' class='sectionIndex' value='-1'/>";
+								iconHTML += "<input type='hidden' class='type' value='"+type+"'/>";
+								iconHTML += "<input type='hidden' class='time' value='"+time+"'/>";
+								iconHTML += "<input type='hidden' class='days' value='"+days+"'/>";
+								iconHTML += "<input type='hidden' class='instructor' value='"+instructor+"'/></div>";
 								$("#"+id+" > .section").append(iconHTML);
 						}
 				}
@@ -33,13 +45,19 @@ $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber
 						for (var sectionIndex = 0; sectionIndex < sectionDataLength; sectionIndex++){
 								var sectionData = jsonResponse.OfferedCourses.course[courseIndex].CourseData.SectionData[sectionIndex];
 								var id = sectionData.id;
+								var type = sectionData.type;
+								var time = sectionData.start_time+"-"+sectionData.end_time;
+								var days = sectionData.day;
+								var instructor = sectionData.instructor.last_name;
 								if(sectionData.number_registered >= sectionData.spaces_available){
 										var iconHTML = "<div class='plus-icon-hummingbird'>";
-										iconHTML += "<input type='hidden' class='term' value='"+termNumber+"'/>";
-										iconHTML += "<input type='hidden' class='dept' value='"+departmentName+"'/>";
 										iconHTML += "<input type='hidden' class='sectionNumber' value='"+id+"' />";
 										iconHTML += "<input type='hidden' class='courseIndex' value='"+courseIndex+"'/>";
-										iconHTML += "<input type='hidden' class='sectionIndex' value='"+sectionIndex+"'/></div>";
+										iconHTML += "<input type='hidden' class='sectionIndex' value='"+sectionIndex+"'/>";
+										iconHTML += "<input type='hidden' class='type' value='"+type+"'/>";
+										iconHTML += "<input type='hidden' class='time' value='"+time+"'/>";
+										iconHTML += "<input type='hidden' class='days' value='"+days+"'/>";
+										iconHTML += "<input type='hidden' class='instructor' value='"+instructor+"'/></div>";
 										$("#"+id+" > .section").append(iconHTML);
 								}
 						}
@@ -50,7 +68,7 @@ $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber
 		$('.plus-icon-hummingbird').css({"background": localPath});
 		
 		// add click event listener to plus-icon-hummingbird class and add class
-		$('.plus-icon-hummingbird').click(function(){addClass();});
+		$('.plus-icon-hummingbird').click(function(){uiLoginStatus(this);});
 		
 		// show logout option if user is logged in
 		if(checkLogIn()=="1"){
@@ -58,12 +76,8 @@ $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber
 		}
 });
 
-function addClass(){
-		var term = $(this).children('.termNumber').val();
-		var dept = $(this).children('.dept').val();
-		var sectionNumber = $(this).children('.sectionNumber').val();
-		var courseIndex = $(this).children('.courseIndex').val();
-		var sectionIndex = $(this).children('.sectionIndex').val();
+function uiLoginStatus(callingOBJ){
+		var sectionNumber = $(callingOBJ).children('.sectionNumber').val();
 		if(checkLogIn() != "1"){
 				var loginHTML = "<div id='page-content'><p id='error-message'>Login to Hummingbird</p><div id='login-wrapper'><form id='login' method='post' autocomplete='off'><div class='login-subContainer'>";
 				loginHTML += "<input type='email' class='textfields' id='login-email' name='email' placeholder='e-mail' required='required'/><input type='password' class='textfields' id='login-pwd' name='pwd' placeholder='password' required='required'/><input type='submit' id='login-submit' value='login'/></div>";
@@ -93,6 +107,7 @@ function addClass(){
 										var jsonResponse = JSON.parse(response);
 										if(jsonResponse.status == 0){
 												showLogout();
+												addClass(sectionNumber);
 										}
 										else{
 												$('#error-message').text(jsonResponse.message);
@@ -104,9 +119,74 @@ function addClass(){
 				});	
 		}
 		else{
-				console.log("user already logged in");
+				addClass(sectionNumber);
 		}
 }
+
+function addClass(sectionNumber){
+		var courseIndex = $("#"+sectionNumber+" .section .plus-icon-hummingbird .courseIndex").val();
+		var sectionIndex = $("#"+sectionNumber+" .section .plus-icon-hummingbird .sectionIndex").val();
+		var type = $("#"+sectionNumber+" .section .plus-icon-hummingbird .type").val();
+		var time = $("#"+sectionNumber+" .section .plus-icon-hummingbird .time").val();
+		var days = $("#"+sectionNumber+" .section .plus-icon-hummingbird .days").val();
+		var instructor = $("#"+sectionNumber+" .section .plus-icon-hummingbird .instructor").val();
+		var fancyBoxHTML = "<table id='fancybox-addCourse-table'>";
+		fancyBoxHTML += "<tr><td colspan='5' id='fancybox-table-description'>You sure bro?</td></tr>";
+		fancyBoxHTML += "<tr id='fancybox-table-header'>";
+		fancyBoxHTML += "<td>Section</td>";
+		fancyBoxHTML += "<td>Type</td>";
+		fancyBoxHTML += "<td>Time</td>";
+		fancyBoxHTML += "<td>Days</td>";
+		fancyBoxHTML += "<td>Instructor</td>";
+		fancyBoxHTML += "</tr><tr>";
+		fancyBoxHTML += "<td>"+sectionNumber+"</td>";
+		fancyBoxHTML += "<td>"+type+"</td>";
+		fancyBoxHTML += "<td>"+time+"</td>";
+		fancyBoxHTML += "<td>"+days+"</td>";
+		fancyBoxHTML += "<td>"+instructor+"</td>";
+		fancyBoxHTML += "</tr><tr>";
+		fancyBoxHTML += "<td colspan='5' id='fancybox-button-container'><div id='fancybox-button' class='unselectable'>ADD CLASS";
+		fancyBoxHTML += "<input type='hidden' id='fancybox-courseIndex' value='"+courseIndex+"'/>";
+		fancyBoxHTML += "<input type='hidden' id='fancybox-sectionIndex' value='"+sectionIndex+"'/></div></td>";
+		fancyBoxHTML += "</tr></table>";
+		
+		$.fancybox({
+				'content'					: fancyBoxHTML,
+				'overlayOpacity'	: 0.7
+		});
+		
+		var localPath = chrome.extension.getURL("fancybox/fancy_close.png");
+		var background = "transparent url('"+localPath+"')";
+		$('#fancybox-close').css({"background":background});
+		
+		// add add class button event listener
+		$("#fancybox-button-container").click(function(){addCourse()});
+}
+
+function addCourse(){
+		var localPath = chrome.extension.getURL("images/loading.gif");
+		var fancyBoxHTML = "<div style='width:400px'><div style='width:50px; margin:auto'><img src='"+localPath+"' width='50' height='50' style='opacity:0.3'/></div></div>";
+		$.fancybox({
+				'content'					: fancyBoxHTML,
+				'overlayOpacity'	: 0.7
+		});
+		$.get('http://www.hummingbirdapplication.com/application/extension/ex-addClassV2.php',{
+						'courseIndex'		: $('#fancybox-courseIndex').val(),
+						'sectionIndex'	: $('#fancybox-sectionIndex').val(),
+						'term'					: $('#hb-term').val(),
+						'dept'					: $('#hb-dept').val()
+				},
+				function(response){
+						var jsonResponse = JSON.parse(response);
+						var fancyBoxHTML = "<div style='font-size:14px; text-align:center; width:400px'>"+jsonResponse.message+"</div>";
+						$.fancybox({
+								'content'					: fancyBoxHTML,
+								'overlayOpacity'	: 0.7
+						});
+				}
+		);
+}
+
 
 function fgpwd(){
 		chrome.extension.sendRequest("fgpwd");

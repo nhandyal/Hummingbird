@@ -96,3 +96,32 @@ input::-webkit-input-placeholder {
 #login-fPassword{
 		cursor:pointer;
 }
+#fancybox-addCourse-table{
+		width:400px;
+}
+#fancybox-table-description{
+		text-align:center;
+		border-bottom:3px solid;
+}
+#fancybox-table-header, #fancybox-table-header td{
+		color:rgb(205,20,20);
+		font-size:12px;
+}
+#fancybox-button-container{
+		text-align:center;
+}
+#fancybox-button{
+		display:inline-block;
+		font-size:12px;
+		line-height:20px;
+		padding:2px 7px 2px 7px;
+		color:white;
+		background:-webkit-linear-gradient(rgb(205,20,20),rgb(150,0,0));
+		background:-moz-linear-gradient(rgb(205,0,0),rgb(150,0,0));
+		border:1px solid;
+		border-color:transparent;
+}
+#fancybox-button:hover{
+		cursor:pointer;
+		border-color:red;
+}

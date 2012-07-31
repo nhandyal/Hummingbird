@@ -1,6 +1,6 @@
 <?php
 		
-		$error_message = "Enter the email you registered with us to reset your password.";
+		$error_message = "Enter the email you registered with us to reset your password. Don't have an account? No problem! Click <a href='/' style='text-decoration:none'>here</a> to create one.";
 		
 		// only if form has been submitted send email to user
 		if(isset($_POST['email'])){
@@ -12,7 +12,7 @@
 				$result = mysqli_query($link,$query);
 				$r = mysqli_fetch_assoc($result);
 				if(mysqli_num_rows($result) == 0){
-						$error_message = "We're sorry, but that e-mail isn't registered with us.";
+						$error_message = "We're sorry, but that e-mail isn't registered with us. Need to create an account? Click <a href='/' style='text-decoration:none'>here</a> to create one.";
 				}
 				else if($r['vrf_email'] == 0){
 						// account hasn't been verified
@@ -94,10 +94,10 @@
 						</div>
 				</div>
 				<div id="page-content">
-						<p id="title"><?php echo $error_message; ?></p>
+						<p id="title" style='width:700px; margin:auto; padding-bottom:10px'><?php echo $error_message; ?></p>
 						<form id='reset-pwd' action='fgpwd.php' method='post'>
 								<input type="email" class="input-element" name="email" placeholder="e-mail" required="required"/>
-								<input type="submit" class="input-element" id="login-submit" value="Send E-mail"/>	
+								<input type="submit" class="input-element" id="login-submit" value="Reset Password"/>	
 						</form>
 				</div>
 		</body>
