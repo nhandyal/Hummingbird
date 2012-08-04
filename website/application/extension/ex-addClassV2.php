@@ -6,7 +6,7 @@
 		$courseIndex = intval($_GET['courseIndex']);
 		$sectionIndex = intval($_GET['sectionIndex']);
 		$term = $_GET['term'];
-		$deptAbbreviation = $_GET['dept'];
+		$deptAbbreviation = strtoupper($_GET['dept']);
 		$courseDataURL = "http://web-app.usc.edu/ws/soc/api/classes/".strtolower($deptAbbreviation)."/$term";
 		$sectionData;
 		

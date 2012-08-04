@@ -1,7 +1,6 @@
 <?php
-
-		// UPDATE DEPARTMENT DATA
-
+		
+		// UPDATE DEPARTMENT JSON DATA
 		require_once("../global/includes/db-open-as-object.php");
 		
 		// variables we will later bind to the prepared statement
@@ -56,13 +55,42 @@
 		// OPEN DB CONNECTION -- PROCEDURAL
 		require_once("../global/includes/db-open.php");
 		
-		// CLEAR USER ENTRIES
-		
-		$deleteQuery = "DELETE FROM users WHERE vrf_email=0";
+		// Remove unused courses and departments
+		// Delete user courses where num emails sent=3
+		$deleteQuery = "DELETE FROM user_courses WHERE numberOfEmailsSent=3";
 		mysqli_query($link,$deleteQuery);
 		
-		// CHECK COURSE AVAILABILITY
+		// Remove unused courses
+		$query = "SELECT term, deptAbbreviation, sectionNumber FROM courses";
+		$result = mysqli_query($link,$query);
+		while($r = mysqli_fetch_assoc($result)){
+				$query = "SELECT email FROM user_courses WHERE term=".$r['term']." AND deptAbbreviation='".$r['deptAbbreviation']."' AND sectionNumber=".$r['sectionNumber'];
+				$courseResult = mysqli_query($link,$query);
+				if(mysqli_num_rows($courseResult) == 0){
+						$deleteQuery = "DELETE FROM courses WHERE term=".$r['term']." AND deptAbbreviation='".$r['deptAbbreviation']."' AND sectionNumber=".$r['sectionNumber'];
+						mysqli_query($link,$deleteQuery);
+				}
+		}
 		
+		// Remove unused departments
+		$query = "SELECT term, deptAbbreviation FROM departments";
+		$result = mysqli_query($link,$query);
+		while($r = mysqli_fetch_assoc($result)){
+				$query = "SELECT sectionNumber FROM courses WHERE term=".$r['term']." AND deptAbbreviation='".$r['deptAbbreviation']."'";
+				$deptResult = mysqli_query($link,$query);
+				if(mysqli_num_rows($deptResult) == 0){
+						$deleteQuery = "DELETE FROM departments WHERE term=".$r['term']." AND deptAbbreviation='".$r['deptAbbreviation']."'";
+						mysqli_query($link,$deleteQuery);
+				}
+		}
+		
+		// CLEAR USER ENTRIES
+		
+		//$deleteQuery = "DELETE FROM users WHERE vrf_email=0";
+		//mysqli_query($link,$deleteQuery);
+		
+		
+		// CHECK COURSE AVAILABILITY
 		
 		$query = "SELECT term, deptAbbreviation, JSONData FROM departments";
 		$department_result = mysqli_query($link, $query);
@@ -176,7 +204,5 @@
 		
 		// CLOSE DB CONNECTION -- PROCEDURAL
 		require_once("../global/includes/db-close.php");
-		
-		
-		
+
 ?>
