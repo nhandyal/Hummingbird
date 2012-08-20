@@ -1,6 +1,7 @@
 {
     "name": "Hummingbird",
     "version": "1.0.2",
+		"manifest_version" : 2,
     
     "description": "A USC couse scheduling assistant",
     "icons": {

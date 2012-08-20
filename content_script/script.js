@@ -65,7 +65,7 @@ $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber
 		}
 		var localPath = chrome.extension.getURL("images/plus-icon.png");
 		localPath = "url('"+localPath+"')";
-		$('.plus-icon-hummingbird').css({"background": localPath});
+		$('.plus-icon-hummingbird').css({"background-image": localPath});
 		
 		// add click event listener to plus-icon-hummingbird class and add class
 		$('.plus-icon-hummingbird').click(function(){uiLoginStatus(this);});
@@ -157,7 +157,7 @@ function addClass(sectionNumber){
 		
 		var localPath = chrome.extension.getURL("fancybox/fancy_close.png");
 		var background = "transparent url('"+localPath+"')";
-		$('#fancybox-close').css({"background":background});
+		$('#fancybox-close').css({"background-image":background});
 		
 		// add add class button event listener
 		$("#fancybox-button-container").click(function(){addCourse()});

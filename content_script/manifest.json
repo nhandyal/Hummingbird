@@ -1,6 +1,7 @@
 {
     "name": "Hummingbird",
-    "version": "1.0.3",
+    "version": "1.0.4",
+    "manifest_version": 2,
     
     "description": "A USC couse scheduling assistant",
     "icons": {
@@ -20,6 +21,11 @@
 						"css" : ["fancybox/jquery.fancybox-1.3.4.css","script.css"],
 						"include_globs": ["http://web-app.usc.edu/soc/?????/*"]
 				}
+		],
+		
+		"web_accessible_resources": [
+				"images/plus-icon.png",
+				"fancybox/fancy_close.png"
 		],
 		
 		"permissions" : [
