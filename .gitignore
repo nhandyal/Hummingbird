@@ -1,2 +1,2 @@
-application/global/includes/db-open-as-object.php
-application/global/includes/db-open.php
+website/application/global/includes/db-open-as-object.php
+website/application/global/includes/db-open.php
