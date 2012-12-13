@@ -12,6 +12,13 @@
 <html>
 		<head>
 				<meta charset="UTF-8"/>
+				<meta property="og:type" content="website"/>
+				<meta property="og:title" content="Hummingbird"/>
+				<meta property="og:description" content="Hummingbird is a USC course scheduling assistant designed with one goal, take the courses you want, when you want them. Its like having your own personal secretary. Hummingbird continuously monitors the classes that you pick and as soon as they become available, it immediately lets you know!"/>
+				<meta property="og:image" content="http://www.hummingbirdapplication.com/images/logos/hummingbird.png"/>
+				<meta property="og:url" content="http://www.hummingbirdapplication.com"/>
+				<meta property="og:site_name" content="Hummingbird"/>
+				<meta property="fb:admins" content="512229611" />
 				<title>Hummingbird</title>
 				<link href='http://fonts.googleapis.com/css?family=Cantarell:400,700' rel='stylesheet' type='text/css'>
 				<link href='application/fancybox/jquery.fancybox-1.3.4.css' rel='stylesheet' type='text/css'/>
