@@ -1,2 +1,3 @@
 website/application/global/includes/db-open-as-object.php
 website/application/global/includes/db-open.php
+.DS_Store
