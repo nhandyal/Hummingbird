@@ -16,6 +16,11 @@ $('document').ready(function(){
 		initializePage();
 		
 		
+		// collapse facebook like box when ui-controls-fbCollapse is clicked
+		$("#ui-controls-fbCollapse").click(function(){
+				$("#fb-like").animate({"height":0},450,function(){});
+		});
+		
 		// Shows the login div when a user mouse overs the login container
 		$('#logo-container').mouseover(function(){
 				$('#login-wrapper').animate({"opacity":1},700,function(){});

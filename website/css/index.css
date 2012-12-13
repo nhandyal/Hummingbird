@@ -32,6 +32,60 @@ body{
 		width:900px;
 		margin:auto;
 }
+/* 		----------------------------------------- FB Like Container ---------------------------- */
+#fb-like{
+		position: fixed;
+		width: 100%;
+		bottom: 0px;
+		background: black;
+		z-index: 10;
+}
+#fb-frame-holder{
+		width:300px;
+		margin: auto;
+		padding-top: 15px;
+		overflow: hidden;
+}
+#ui-controls-fbCollapse{
+		float: right;
+		width: 40px;
+		background: black;
+		height: 54px;
+		margin-right: 10px;
+}
+#ui-controls-fbCollapse:hover{
+		cursor: pointer;
+		background: rgb(30,30,30);
+}
+.ui-arrow{
+		margin-top: 10px;
+}
+.ui-arrow-shifted{
+		position: relative;
+		top:-20px;
+}
+.ui-arrow:before{
+		content:"";
+		display: inline-block;
+		position: relative;
+		left:26px;
+		width:2px;
+		height:20px;
+		background:rgb(80,80,80);
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+}
+.ui-arrow:after{
+		content:"";
+		display: inline-block;
+		position: relative;
+		left:11px;
+		width:2px;
+		height:20px;
+		background:rgb(80,80,80);
+		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+}
 /* 		----------------------------------------- Login Container ------------------------------ */
 #logo-container{
 		/*height:200px;*/
