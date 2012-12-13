@@ -8,7 +8,12 @@ jQuery.expr[':'].contains = function(a, i, m) {
 
 $(document).ready(function(){
 		initializePage();
-
+		
+		// collapse facebook like box when ui-controls-fbCollapse is clicked
+		$("#ui-controls-fbCollapse").click(function(){
+				$("#fb-like").animate({"height":0},450,function(){});
+		});
+		
 		// Settings Toggle function
 		$('#settings-toggle').click(function(){
 				if($('.settings-visible').length == 0){

@@ -141,6 +141,17 @@
 																echo "<div id='welcome-caption' class='text-selectable'>Hey there and welcome back to Hummingbird! You currently don't have any classes on your watch-list. Add some more classes by using the built in course browser or by using our awesome <a href='https://chrome.google.com/webstore/detail/adbpoijidlpgogcfalangpplfoigeomn' style='color:inherit'>Google Chrome Extension</a>.</div>";
 																echo "<div id='welcome-guy' class='unselectable'></div>";
 																echo "<div id='painting-guy' class='unselectable'></div>";
+												?>
+																<div id="fb-like">
+																		<div id="ui-controls-fbCollapse">
+																				<div class="ui-arrow"></div>
+																				<div class="ui-arrow ui-arrow-shifted"></div>
+																		</div>
+																		<div id="fb-frame-holder">
+																				<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.hummingbirdapplication.com&amp;send=false&amp;layout=standard&amp;width=300&amp;show_faces=false&amp;font=arial&amp;colorscheme=dark&amp;action=like&amp;height=35&amp;appId=492551360768165" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:35px;" allowTransparency="true"></iframe>
+																		</div>
+																</div>
+												<?php
 														}
 												?>
 										</div>
@@ -149,6 +160,15 @@
 								}
 								else{
 						?>
+								<div id="fb-like">
+										<div id="ui-controls-fbCollapse">
+												<div class="ui-arrow"></div>
+												<div class="ui-arrow ui-arrow-shifted"></div>
+										</div>
+										<div id="fb-frame-holder">
+												<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.hummingbirdapplication.com&amp;send=false&amp;layout=standard&amp;width=300&amp;show_faces=false&amp;font=arial&amp;colorscheme=dark&amp;action=like&amp;height=35&amp;appId=492551360768165" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:35px;" allowTransparency="true"></iframe>
+										</div>
+								</div>
 								<div id='main-content-wrapper'>
 										<div id='table-headers'>
 												<table class='course-data-table text-selectable'>
