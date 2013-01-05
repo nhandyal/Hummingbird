@@ -63,6 +63,8 @@ $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber
 						}
 				}
 		}
+
+		// local path for + icon
 		var localPath = chrome.extension.getURL("images/plus-icon.png");
 		localPath = "url('"+localPath+"')";
 		$('.plus-icon-hummingbird').css({"background-image": localPath});
@@ -151,13 +153,14 @@ function addClass(sectionNumber){
 		fancyBoxHTML += "</tr></table>";
 		
 		$.fancybox({
-				'content'					: fancyBoxHTML,
-				'overlayOpacity'	: 0.7
+				'content'			: fancyBoxHTML,
+				'overlayOpacity'	: 0.7,
+				'onComplete'		: function(){
+										var localPath = chrome.extension.getURL("fancybox/fancy_close.png");
+										var background = "transparent url('"+localPath+"')";
+										$('#fancybox-close').css({"background":background});
+									}
 		});
-		
-		var localPath = chrome.extension.getURL("fancybox/fancy_close.png");
-		var background = "transparent url('"+localPath+"')";
-		$('#fancybox-close').css({"background-image":background});
 		
 		// add add class button event listener
 		$("#fancybox-button-container").click(function(){addCourse()});
@@ -167,20 +170,20 @@ function addCourse(){
 		var localPath = chrome.extension.getURL("images/loading.gif");
 		var fancyBoxHTML = "<div style='width:400px'><div style='width:50px; margin:auto'><img src='"+localPath+"' width='50' height='50' style='opacity:0.3'/></div></div>";
 		$.fancybox({
-				'content'					: fancyBoxHTML,
+				'content'			: fancyBoxHTML,
 				'overlayOpacity'	: 0.7
 		});
 		$.get('http://www.hummingbirdapplication.com/application/extension/ex-addClassV2.php',{
 						'courseIndex'		: $('#fancybox-courseIndex').val(),
-						'sectionIndex'	: $('#fancybox-sectionIndex').val(),
-						'term'					: $('#hb-term').val(),
-						'dept'					: $('#hb-dept').val()
+						'sectionIndex'		: $('#fancybox-sectionIndex').val(),
+						'term'				: $('#hb-term').val(),
+						'dept'				: $('#hb-dept').val()
 				},
 				function(response){
 						var jsonResponse = JSON.parse(response);
 						var fancyBoxHTML = "<div style='font-size:14px; text-align:center; width:400px'>"+jsonResponse.message+"</div>";
 						$.fancybox({
-								'content'					: fancyBoxHTML,
+								'content'			: fancyBoxHTML,
 								'overlayOpacity'	: 0.7
 						});
 				}

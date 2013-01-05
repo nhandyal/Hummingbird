@@ -25,7 +25,8 @@
 		
 		"web_accessible_resources": [
 				"images/plus-icon.png",
-				"fancybox/fancy_close.png"
+				"fancybox/fancy_close.png",
+				"images/loading.gif"
 		],
 		
 		"permissions" : [
