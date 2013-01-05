@@ -30,10 +30,10 @@
 		foreach($offeredCourses as $course){
 				$deptName = $course->CourseData->prefix;
 				$courseNumber = $course->CourseData->number;
-																																														// OPEN CONTAINMENT DIV TAG			
+																															// OPEN CONTAINMENT DIV TAG			
 				$sectionData .= "<div id='$deptName-$courseNumber-data'>"; 													// this div is the hidden container. We will take its contents
-																																														// and insert them into the section-data-container. ID = deptName-courseNumber-D=data.
-																																														// referenced by department li select id.
+																															// and insert them into the section-data-container. ID = deptName-courseNumber-D=data.
+																															// referenced by department li select id.
 				$sectionData .= "<ul class='ui-drop-menu ui-select section-data-ul'>";
 				if(gettype($course->CourseData->SectionData) == object){
 						// only one offered section
@@ -62,12 +62,12 @@
 										$instructor = $course->CourseData->SectionData->instructor->last_name;
 						}
 						
-						$sectionData .= "<li $liClass><div>";																						// open the li tag and the visible data div tag
+						$sectionData .= "<li $liClass><div>";																		// open the li tag and the visible data div tag
 						$sectionData .= "<div class='section-data-content data-sectionNumber'>$sectionNumber</div>";				// add data to the visible div tag
 						$sectionData .= "<div class='section-data-content data-type'>$type</div>";								
 						$sectionData .= "<div class='section-data-content data-time'>$time</div>";
 						$sectionData .= "<div class='section-data-content data-days'>$days</div>";
-						$sectionData .= "<div class='section-data-content data-instructor'>$instructor</div></div>";		// add final visible data elements and close visible data container div
+						$sectionData .= "<div class='section-data-content data-instructor'>$instructor</div></div>";				// add final visible data elements and close visible data container div
 						
 
 						$sectionData .= "<input type='hidden' class='course-index' value='$courseIndex'/>";

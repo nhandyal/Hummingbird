@@ -28,16 +28,18 @@ $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber
 						var time = sectionData.start_time+"-"+sectionData.end_time;
 						var days = sectionData.day;
 						var instructor = sectionData.instructor.last_name;
-						if(sectionData.number_registered >= sectionData.spaces_available){
-								var iconHTML = "<div class='plus-icon-hummingbird'>";
-								iconHTML += "<input type='hidden' class='sectionNumber' value='"+id+"' />";
-								iconHTML += "<input type='hidden' class='courseIndex' value='"+courseIndex+"'/>";
-								iconHTML += "<input type='hidden' class='sectionIndex' value='-1'/>";
-								iconHTML += "<input type='hidden' class='type' value='"+type+"'/>";
-								iconHTML += "<input type='hidden' class='time' value='"+time+"'/>";
-								iconHTML += "<input type='hidden' class='days' value='"+days+"'/>";
-								iconHTML += "<input type='hidden' class='instructor' value='"+instructor+"'/></div>";
-								$("#"+id+" > .section").append(iconHTML);
+						var classFull = parseInt(sectionData.number_registered, 10) >= parseInt(sectionData.spaces_available,10);
+						var cancelled = (sectionData.canceled).toLowerCase() == "y";
+						if(classFull && !cancelled){
+							var iconHTML = "<div class='plus-icon-hummingbird'>";
+							iconHTML += "<input type='hidden' class='sectionNumber' value='"+id+"' />";
+							iconHTML += "<input type='hidden' class='courseIndex' value='"+courseIndex+"'/>";
+							iconHTML += "<input type='hidden' class='sectionIndex' value='-1'/>";
+							iconHTML += "<input type='hidden' class='type' value='"+type+"'/>";
+							iconHTML += "<input type='hidden' class='time' value='"+time+"'/>";
+							iconHTML += "<input type='hidden' class='days' value='"+days+"'/>";
+							iconHTML += "<input type='hidden' class='instructor' value='"+instructor+"'/></div>";
+							$("#"+id+" > .section").append(iconHTML);
 						}
 				}
 				else{
@@ -49,16 +51,18 @@ $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber
 								var time = sectionData.start_time+"-"+sectionData.end_time;
 								var days = sectionData.day;
 								var instructor = sectionData.instructor.last_name;
-								if(sectionData.number_registered >= sectionData.spaces_available){
-										var iconHTML = "<div class='plus-icon-hummingbird'>";
-										iconHTML += "<input type='hidden' class='sectionNumber' value='"+id+"' />";
-										iconHTML += "<input type='hidden' class='courseIndex' value='"+courseIndex+"'/>";
-										iconHTML += "<input type='hidden' class='sectionIndex' value='"+sectionIndex+"'/>";
-										iconHTML += "<input type='hidden' class='type' value='"+type+"'/>";
-										iconHTML += "<input type='hidden' class='time' value='"+time+"'/>";
-										iconHTML += "<input type='hidden' class='days' value='"+days+"'/>";
-										iconHTML += "<input type='hidden' class='instructor' value='"+instructor+"'/></div>";
-										$("#"+id+" > .section").append(iconHTML);
+								var classFull = parseInt(sectionData.number_registered, 10) >= parseInt(sectionData.spaces_available,10);
+								var cancelled = (sectionData.canceled).toLowerCase() == "y";
+								if(classFull && !cancelled){
+									var iconHTML = "<div class='plus-icon-hummingbird'>";
+									iconHTML += "<input type='hidden' class='sectionNumber' value='"+id+"' />";
+									iconHTML += "<input type='hidden' class='courseIndex' value='"+courseIndex+"'/>";
+									iconHTML += "<input type='hidden' class='sectionIndex' value='"+sectionIndex+"'/>";
+									iconHTML += "<input type='hidden' class='type' value='"+type+"'/>";
+									iconHTML += "<input type='hidden' class='time' value='"+time+"'/>";
+									iconHTML += "<input type='hidden' class='days' value='"+days+"'/>";
+									iconHTML += "<input type='hidden' class='instructor' value='"+instructor+"'/></div>";
+									$("#"+id+" > .section").append(iconHTML);
 								}
 						}
 				}
