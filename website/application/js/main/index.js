@@ -137,7 +137,7 @@ function initializePage(){
 		// Set the location of the settings box
 		var stPos = $('#settings-toggle').position();
 		var cssOBJ = {
-				'top'		: stPos.top+30,
+				'top'	: stPos.top+30,
 				'left'	: stPos.left-161
 		};
 		$('#settings').css(cssOBJ);
@@ -244,7 +244,7 @@ function confirmDeleteCourse(email, term, deptAbbreviation, sectionNumber, type)
 		fancyBoxHTML += "</tr></table></div>";
 		
 		$.fancybox({
-				'content' 					: fancyBoxHTML,
+				'content' 				: fancyBoxHTML,
 				'overlayOpacity'		: 0.7
 		});
 }
@@ -252,13 +252,13 @@ function confirmDeleteCourse(email, term, deptAbbreviation, sectionNumber, type)
 function deleteCourse(email,term, deptAbbreviation, sectionNumber){
 		var fancyBoxHTML = "<div style='width:400px'><div style='width:50px; margin:auto'><img src='../images/loading.gif' width='50' height='50' style='opacity:0.3'/></div></div>";
 		$.fancybox({
-				'content'					: fancyBoxHTML,
+				'content'			: fancyBoxHTML,
 				'overlayOpacity'	: 0.7
 		});
 		$.get('removeCourse.php',{
-						'email'							: email,
-						'term'							: term,
-						'deptAbbreviation'	: deptAbbreviation,
+						'email'					: email,
+						'term'					: term,
+						'deptAbbreviation'		: deptAbbreviation,
 						'sectionNumber'			: sectionNumber
 				},function(response){
 						var jsonResponse = JSON.parse(response);
@@ -268,7 +268,7 @@ function deleteCourse(email,term, deptAbbreviation, sectionNumber){
 						else{
 								var fancyBoxHTML = "<div style='font-size:14px; text-align:center; width:400px'>Uhoh, looks like we're experiencing some technical difficulties. Please try again later.</div>";
 								$.fancybox({
-										'content'					: fancyBoxHTML,
+										'content'			: fancyBoxHTML,
 										'overlayOpacity'	: 0.7
 								});
 						}
@@ -365,7 +365,7 @@ function confirmCourseAdd(obj){
 		fancyBoxHTML += "</tr></table>";
 		
 		$.fancybox({
-				'content'					: fancyBoxHTML,
+				'content'			: fancyBoxHTML,
 				'overlayOpacity'	: 0.7
 		});
 }
@@ -373,14 +373,14 @@ function confirmCourseAdd(obj){
 function addCourse(){
 		var fancyBoxHTML = "<div style='width:400px'><div style='width:50px; margin:auto'><img src='../images/loading.gif' width='50' height='50' style='opacity:0.3'/></div></div>";
 		$.fancybox({
-				'content'					: fancyBoxHTML,
+				'content'			: fancyBoxHTML,
 				'overlayOpacity'	: 0.7
 		});
 		$.get('addClassFunctions/addClass.php',{
 						'courseIndex'		: $('#fancybox-courseIndex').val(),
-						'sectionIndex'	: $('#fancybox-sectionIndex').val(),
-						'term'					: $('#selected-term-number').val(),
-						'dept'					: $('#selected-department').val()
+						'sectionIndex'		: $('#fancybox-sectionIndex').val(),
+						'term'				: $('#selected-term-number').val(),
+						'dept'				: $('#selected-department').val()
 				},
 				function(response){
 						var jsonResponse = JSON.parse(response);
@@ -391,7 +391,7 @@ function addCourse(){
 						else{
 								var fancyBoxHTML = "<div style='font-size:14px; text-align:center; width:400px'>"+jsonResponse.message+"</div>";
 								$.fancybox({
-										'content'					: fancyBoxHTML,
+										'content'			: fancyBoxHTML,
 										'overlayOpacity'	: 0.7
 								});
 						}

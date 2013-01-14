@@ -35,6 +35,9 @@
 								echo "<div id='black-overlay'></div>";
 						}
 				?>
+				<!-- ******************************************************************************** -->
+				<!-- ************************************** Header ********************************** -->
+				<!-- ******************************************************************************** -->
 				<div id="settings">
 						<ul>
 								<li><a href="settings.php">Settings</a></li>
@@ -55,6 +58,9 @@
 						<div class='clear'></div>
 				</div>
 				<div id='master-wrapper' class='unselectable'>
+						<!-- ******************************************************************************** -->
+						<!-- ****************************** Inline Course Browser *************************** -->
+						<!-- ******************************************************************************** -->
 						<div id='add-class-container'>
 								<div id='select-term-container' class='unselectable'>
 										<span id='selected-term'>Select Term</span>
@@ -119,6 +125,8 @@
 										<img src='../images/loading.gif' width='50' height='50' style='margin-top:50px; margin-left:100px; opacity:0.3'/>
 								</div>
 						</div>
+						<!-- If the user has no current active courses, display the welcome back page. -->
+						<!-- Else display user courses -->
 						<?php
 								if(mysqli_num_rows($result) == 0){
 						?>
@@ -169,6 +177,9 @@
 												<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.hummingbirdapplication.com&amp;send=false&amp;layout=standard&amp;width=300&amp;show_faces=false&amp;font=arial&amp;colorscheme=dark&amp;action=like&amp;height=35&amp;appId=492551360768165" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:35px;" allowTransparency="true"></iframe>
 										</div>
 								</div>
+								<!-- ******************************************************************************** -->
+								<!-- ******************************* Main Content Wrapper *************************** -->
+								<!-- ******************************************************************************** -->
 								<div id='main-content-wrapper'>
 										<div id='table-headers'>
 												<table class='course-data-table text-selectable'>
