@@ -20,7 +20,6 @@
 		}
 		
 		$departmentData = json_decode($servResponse);
-		$publishedCourseName = $departmentData->OfferedCourses->course["$courseIndex"]->PublishedCourseID.": ".$departmentData->OfferedCourses->course["$courseIndex"]->CourseData->title;
 		$department = $departmentData->Dept_info->department;
 		$sectionData = (array)$departmentData->OfferedCourses->course["$courseIndex"]->CourseData->SectionData;
 		if($sectionIndex != -1)
@@ -40,7 +39,7 @@
 		if(!empty($temp)){
 				$instructor = $sectionData['instructor']->first_name." ".$sectionData['instructor']->last_name;
 		}
-		
+		$publishedCourseName = $departmentData->OfferedCourses->course["$courseIndex"]->PublishedCourseID.": ".$departmentData->OfferedCourses->course["$courseIndex"]->CourseData->title." section ".$sectionNumber;
 		
 		// begin checking tables if data is already present
 		mysqli_query($link,"START TRANSACTION");
@@ -166,7 +165,7 @@
 				if($sql_error == 0){
 						mysqli_commit($sqlLink);
 						$response['status'] = 0;
-						$response['message'] = "The course ".$pcn." was successfully added to your watch-list";
+						$response['message'] = $pcn." was successfully added to your watch-list";
 				}
 				else{
 						mysqli_rollback($sqlLink);

@@ -27,9 +27,13 @@ $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber
 						var type = sectionData.type;
 						var time = sectionData.start_time+"-"+sectionData.end_time;
 						var days = sectionData.day;
-						var instructor = sectionData.instructor.last_name;
 						var classFull = parseInt(sectionData.number_registered, 10) >= parseInt(sectionData.spaces_available,10);
 						var cancelled = (sectionData.canceled).toLowerCase() == "y";
+						var instructor = "--";
+						if(typeof(sectionData.instructor.last_name) != "object"){
+							// section has an instructor
+							instructor = sectionData.instructor.last_name;
+						}
 						if(classFull && !cancelled){
 							var iconHTML = "<div class='plus-icon-hummingbird'>";
 							iconHTML += "<input type='hidden' class='sectionNumber' value='"+id+"' />";
@@ -50,9 +54,13 @@ $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber
 								var type = sectionData.type;
 								var time = sectionData.start_time+"-"+sectionData.end_time;
 								var days = sectionData.day;
-								var instructor = sectionData.instructor.last_name;
 								var classFull = parseInt(sectionData.number_registered, 10) >= parseInt(sectionData.spaces_available,10);
 								var cancelled = (sectionData.canceled).toLowerCase() == "y";
+								var instructor = "--";
+								if(typeof(sectionData.instructor.last_name) != "object"){
+									// section has an instructor
+									instructor = sectionData.instructor.last_name;
+								}
 								if(classFull && !cancelled){
 									var iconHTML = "<div class='plus-icon-hummingbird'>";
 									iconHTML += "<input type='hidden' class='sectionNumber' value='"+id+"' />";
