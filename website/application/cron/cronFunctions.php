@@ -153,8 +153,8 @@
 						$numberOfEmailsSent = intval($user_r['numberOfEmailsSent'])+1;
 						$toEmail = $user_r['email'];
 						$emailSubject = "$deptAbbreviation - $sectionNumber Available";
-						$emailHeaders = "From: no_reply@hummingbirdapplication.com" . "\r\n";
-						$emailHeaders .= "Reply-To: no_reply@hummingbirdapplication.com" . "\r\n";
+						$emailHeaders = "From: no_reply@coursespot.net" . "\r\n";
+						$emailHeaders .= "Reply-To: no_reply@coursespot.net" . "\r\n";
 						$emailHeaders .= "MIME-Version: 1.0" . "\r\n";
 						$emailHeaders .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
 						$emailMessage = "
@@ -164,8 +164,7 @@
 										<body style='margin:0px; padding:0px;font-family: Verdana,Arial;font-size:16px ;color:rgb(60,60,60)'>
 												<table style='width:600px; margin:auto'>
 														<tr>
-																<td><img src='http://www.hummingbirdapplication.com/images/logos/hummingbird.png' width='52' height='70' alt='Hummingbird'></td>
-																<td style='vertical-align:bottom'><span style='font-size:70px'>HUMMING</span><span style='color:rgb(205,20,20);font-size:70px'>BIRD</span></td>
+																<td style='vertical-align:bottom'><span style='font-size:70px'>COURSE</span><span style='color:rgb(205,20,20);font-size:70px'>SPOT</span></td>
 														</tr>
 														<tr style='text-align:justify'>
 																<td colspan='2' style='padding-top:20px'>
@@ -181,7 +180,7 @@
 														</tr>
 														<tr>
 																<td colspan='2' style='padding-top:20px'>
-																		Cheers,<br/><span style='color:rgb(205,20,20)'>The Hummingbird Team</span>
+																		Cheers,<br/><span style='color:rgb(205,20,20)'>The Coursespot Team</span>
 																		<br/>
 																		<br/>
 																</td>
@@ -195,10 +194,10 @@
 						
 						if($user_r['text_notify'] == 1){
 								$toPhone = $user_r['phone_number'].$user_r['carrier_code'];
-								$textHeaders = "From: no_reply@hummingbirdapplication.com" . "\r\n";
+								$textHeaders = "From: no_reply@coursespot.net" . "\r\n";
 								$textMessage = "Course available ".$deptAbbreviation." - ".$sectionNumber;
-								ini_set('sendmail_from','no_reply@hummingbirdapplication.com');
-								mail($toPhone,"",$textMessage,$textHeaders,"-fno_reply@hummingbirdapplication.com");
+								ini_set('sendmail_from','no_reply@coursespot.net');
+								mail($toPhone,"",$textMessage,$textHeaders,"-fno_reply@coursespot.net");
 						}
 						
 						$updateQuery = "UPDATE user_courses SET numberOfEmailsSent=$numberOfEmailsSent WHERE term=$term AND deptAbbreviation='$deptAbbreviation' AND sectionNumber=$sectionNumber";

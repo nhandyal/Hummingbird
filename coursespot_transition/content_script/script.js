@@ -1,5 +1,5 @@
 // create logout nav menu item and add event listener
-var hummingBirdLoagout = "<div id='hb-logout'>Logout of Hummingbird</div>";
+var hummingBirdLoagout = "<div id='hb-logout'>Logout of Coursespot</div>";
 $('#nav').append(hummingBirdLoagout);
 $('#hb-logout').click(function(){
 		hbLogout();
@@ -16,6 +16,7 @@ pagedata += "<input type='hidden' id='hb-dept' value='"+departmentName+"'/>";
 $("body").append(pagedata);
 
 // add addable icons to full classes
+console.log("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber);
 $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber,{},function(response){
 		var jsonResponse = JSON.parse(response);
 		for (var courseIndex = 0; courseIndex < (jsonResponse.OfferedCourses.course).length; courseIndex++){
@@ -93,7 +94,7 @@ $.get("http://web-app.usc.edu/ws/soc/api/classes/"+departmentName+"/"+termNumber
 function uiLoginStatus(callingOBJ){
 		var sectionNumber = $(callingOBJ).children('.sectionNumber').val();
 		if(checkLogIn() != "1"){
-				var loginHTML = "<div id='page-content'><p id='error-message'>Login to Hummingbird</p><div id='login-wrapper'><form id='login' method='post' autocomplete='off'><div class='login-subContainer'>";
+				var loginHTML = "<div id='page-content'><p id='error-message'>Login to Coursespot</p><div id='login-wrapper'><form id='login' method='post' autocomplete='off'><div class='login-subContainer'>";
 				loginHTML += "<input type='email' class='textfields' id='login-email' name='email' placeholder='e-mail' required='required'/><input type='password' class='textfields' id='login-pwd' name='pwd' placeholder='password' required='required'/><input type='submit' id='login-submit' value='login'/></div>";
 				loginHTML	+= "<div class='login-subContainer'><input id='login-persistence' type='checkbox' name='persistence' value='1'/><span id='login-label'>Remember me</span><a id='login-fPassword'>Forgot your password?</a></div></form></div></div>";
 				$.fancybox({
@@ -111,7 +112,7 @@ function uiLoginStatus(callingOBJ){
 						$.ajax({
 								type: "POST",
 								async: false,
-								url: "http://www.hummingbirdapplication.com/application/extension/ex-login.php",
+								url: "http://www.coursespot.net/application/extension/ex-login.php",
 								data: {
 										email 			: $('#login-email').val(),
 										pwd					: $('#login-pwd').val(),
@@ -185,7 +186,7 @@ function addCourse(){
 				'content'			: fancyBoxHTML,
 				'overlayOpacity'	: 0.7
 		});
-		$.get('http://www.hummingbirdapplication.com/application/extension/ex-addClassV2.php',{
+		$.get('http://www.coursespot.net/application/extension/ex-addClassV2.php',{
 						'courseIndex'		: $('#fancybox-courseIndex').val(),
 						'sectionIndex'		: $('#fancybox-sectionIndex').val(),
 						'term'				: $('#hb-term').val(),
@@ -212,7 +213,7 @@ function checkLogIn(){
 		$.ajax({
 						type: "GET",
 						async: false,
-						url: "http://www.hummingbirdapplication.com/application/extension/ex-loggedIn.php",
+						url: "http://www.coursespot.net/application/extension/ex-loggedIn.php",
 						success: function(response){
 								loggedIn = response;
 						}
@@ -231,7 +232,7 @@ function showLogout(){
 }
 
 function hbLogout(){
-		$.get("http://www.hummingbirdapplication.com/application/extension/ex-logout.php",{},function(response){
+		$.get("http://www.coursespot.net/application/extension/ex-logout.php",{},function(response){
 				if (response == "1")
 						hideLogout();
 		});

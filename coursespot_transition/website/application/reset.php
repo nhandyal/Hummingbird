@@ -31,10 +31,10 @@
 				$updateQuery = "UPDATE users SET pwd='$pwd' WHERE user_num=".$user_num;
 				mysqli_query($link,$updateQuery);
 				if(mysqli_errno($link) != 0){
-						$message = "We're sorry but something and we weren't able to reset your password. Please try again in a little bit.";
+						$message = "We're sorry but something went wrong and we weren't able to reset your password. Please try again in a little bit.";
 				}
 				else{
-						$message = "Awesome, your password was reset! Return <a href='/' style='color:rgb(205,20,20)'>home</a> to login and continue using Hummingbird";
+						$message = "Awesome, your password was reset! Return <a href='/' style='color:rgb(205,20,20)'>home</a> to login and continue using Coursespot";
 				}
 		}
 		
@@ -52,11 +52,6 @@
 				<script src="js/g-analytics.js" type="text/javascript"></script>
 		</head>
 		<body>
-				<div id="header">
-						<div id="header-img-container">
-								<a href="/"><img src="images/logos/hummingbird.png" width="74" height="100" alt="logo"/></a>
-						</div>
-				</div>
 				<div id="page-content">
 						<p id="title"><?php echo $message; ?></p>
 						<?php

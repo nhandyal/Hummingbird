@@ -19,11 +19,11 @@
 						$error_message = "Uhoh, looks like this account hasn't been verified. Check the e-mail you provided for instruction on how to verify your account.";
 				}
 				else{
-						$link = 'http://www.hummingbirdapplication.com/application/reset.php?vrf-email='.$r['email_hash'].'&srvt='.time();
+						$link = 'http://www.coursespot.net/application/reset.php?vrf-email='.$r['email_hash'].'&srvt='.time();
 						$to = $email;
-						$subject = "Hummingbird Password Reset";
-						$headers = "From: no_reply@hummingbirdapplication.com" . "\r\n";
-						$headers .= "Reply-To: no_reply@hummingbirdapplication.com" . "\r\n";
+						$subject = "Coursespot Password Reset";
+						$headers = "From: no_reply@coursespot.net" . "\r\n";
+						$headers .= "Reply-To: no_reply@coursespot.net" . "\r\n";
 						$headers .= "MIME-Version: 1.0" . "\r\n";
 						$headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
 						$message = "
@@ -35,13 +35,12 @@
 												<body style='margin:0px; padding:0px;font-family: Verdana,Arial;font-size:16px ;color:rgb(60,60,60)'>
 												<table style='width:600px; margin:auto'>
 														<tr>
-																<td><img src='http://www.hummingbirdapplication.com/images/logos/hummingbird.png' width='52' height='70' alt='Hummingbird'></td>
-																<td style='vertical-align:bottom'><span style='font-size:70px'>HUMMING</span><span style='color:rgb(205,20,20);font-size:70px'>BIRD</span></td>
+																<td style='vertical-align:bottom'><span style='font-size:70px'>COURSE</span><span style='color:rgb(205,20,20);font-size:70px'>SPOT</span></td>
 														</tr>
 														<tr style='text-align:justify'>
 																<td colspan='2' style='padding-top:20px'>
 																		Hi There!<br/><br/>
-																		We heard you forgot your password so we're here to help. Simply follow the link below to set your new password and you'll be back using Hummingbird
+																		We heard you forgot your password so we're here to help. Simply follow the link below to set your new password and you'll be back using Coursespot
 																		before you know it. Keep in mind that the link is only valid for an hour.
 																</td>
 														</tr>
@@ -52,12 +51,12 @@
 														</tr>
 														<tr style='text-align:justify'>
 																<td colspan='2' style='padding-top:20px'>
-																		If you've remembered your password, or didn't make this request yourself, just feel free to forget about this mail and carry on with your day!
+																		If you've remembered your password, or didn't make this request yourself, just feel free to forget about this email and carry on with your day!
 																</td>
 														</tr>
 														<tr>
 																<td colspan='2' style='padding-top:20px'>
-																		Cheers,<br/><span style='color:rgb(205,20,20)'>The Hummingbird Team</span>
+																		Cheers,<br/><span style='color:rgb(205,20,20)'>The Coursespot Team</span>
 																</td>
 														</tr>
 												</table>
