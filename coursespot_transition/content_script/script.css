@@ -1,0 +1,127 @@
+#hb-logout{
+		display:none;
+		float:right;
+		color:white;
+		font-size:13px;
+		padding-right:5px;
+		padding-top:3px;
+		font-weight:bold;
+}
+#hb-logout:hover{
+		cursor:pointer;
+		text-decoration:underline;
+}
+.plus-icon-hummingbird{
+		position:relative;
+		left:-65px;
+		display:inline-block;
+		width:10px;
+		height:10px;
+		background-repeat:no-repeat;
+		background-size:10px;
+		margin-right:7px;
+		margin-left:3px;
+}
+.plus-icon-hummingbird:hover{
+		cursor:pointer;
+}
+#page-content{
+		padding:20px;
+}
+#error-message{
+		width:100%;
+		color:rgb(205,20,20);
+		font-size:20px;
+		text-align:center;
+		margin-bottom:20px;
+}
+#login-wrapper{
+		width:550px;
+		margin:auto;
+}
+#login-wrapper #login .textfields{
+		width:200px;
+		height:25px;
+		margin-left:10px;
+		margin-right:10px;
+		text-align:center;
+		background:black;
+		color:rgb(205,20,20);
+		border:none;
+}
+input::-webkit-input-placeholder {
+		color:rgb(205,20,20);
+		font-family: 'Cantarell', sans-serif;
+		font-weight:700;
+}
+#login-wrapper #login .textfields:focus{
+		outline:solid;
+		outline-color:rgb(205,20,20);
+		outline-width:medium;
+}
+#login-wrapper #login #login-submit{
+		display:inline-block;
+		height:25px;
+		width:100px;
+		background:black;
+		color:rgb(205,20,20);
+		border:none;
+		padding-top:3px;
+}
+#login-wrapper #login #login-submit:hover{
+		cursor:pointer;
+		color:black;
+		background:rgb(205,20,20);
+		border:1px solid;
+}
+#login-wrapper #login #login-submit:active{
+		outline:solid;
+		outline-width:thin;
+		background:rgb(191,0,0);
+}
+#login-persistence{
+		margin-left:10px;
+}
+#login-label{
+		margin-left:12px;
+		color:rgb(60,60,60);
+		font-size:12px;
+}
+#login-wrapper #login a{
+		margin-left:112px;
+		text-decoration:none;
+		color:rgb(60,60,60);
+		font-size:12px;
+}
+#login-fPassword{
+		cursor:pointer;
+}
+#fancybox-addCourse-table{
+		width:400px;
+}
+#fancybox-table-description{
+		text-align:center;
+		border-bottom:3px solid;
+}
+#fancybox-table-header, #fancybox-table-header td{
+		color:rgb(205,20,20);
+		font-size:12px;
+}
+#fancybox-button-container{
+		text-align:center;
+}
+#fancybox-button{
+		display:inline-block;
+		font-size:12px;
+		line-height:20px;
+		padding:2px 7px 2px 7px;
+		color:white;
+		background:-webkit-linear-gradient(rgb(205,20,20),rgb(150,0,0));
+		background:-moz-linear-gradient(rgb(205,0,0),rgb(150,0,0));
+		border:1px solid;
+		border-color:transparent;
+}
+#fancybox-button:hover{
+		cursor:pointer;
+		border-color:red;
+}

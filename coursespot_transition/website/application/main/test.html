@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<link href='http://fonts.googleapis.com/css?family=Cantarell:400,700' rel='stylesheet' type='text/css'>
+				<style>
+						*{
+								margin:0px;
+								padding:0px;
+								font-family: 'Cantarell', sans-serif;
+								font-weight:700;	
+								color:rgb(80,80,80);
+						}
+						#welcome-wrapper{
+								position:relative;
+						}
+						#welcome-arrow{
+								display:inline-block;
+								width:208px;
+								height:169px;
+								background:url('../images/curved-arrow.png');
+								background-size:208px 169px;
+						}
+						#welcome-caption{
+								display:inline-block;
+								width:600px;
+								padding:15px;
+								border:5px solid;
+								border-radius:15px;
+								border-color:rgb(205,20,20);
+								color:rgb(60,60,60);
+								position:relative;
+						}
+						#welcome-caption:before{
+								content:"";
+								display:block;
+								width:0px;
+								position:absolute;
+								top:78px;
+								left:100px;
+								border-width:30px 30px 0px;
+								border-style:solid;
+								border-color:rgb(205,20,20) transparent;
+						}
+						#welcome-caption:after{
+								content:"";
+								display:block;
+								width:0px;
+								position:absolute;
+								top:78px;
+								left:110px;
+								border-width:25px 20px 0px;
+								border-style:solid;
+								border-color:white transparent;
+						}
+						#welcome-guy{
+								display:inline-block;
+								position:relative;
+								top:252px;
+								left:-547px;
+								width:77px;
+								height:197px;
+								background:url('../images/welcome-guy.png');
+								background-size:77px 197px;
+						}
+				</style>
+		</head>
+		<body>
+				<div id='welcome-wrapper'>
+						<div id='welcome-arrow'></div>
+						<div id='welcome-caption'>Hey there and welcome to Hummingbird! To get started adding classes simply click on the Hummingbird icon and we'll be on our way!</div>
+						<div id='welcome-guy'></div>
+				</div>
+		</body>
+</html>

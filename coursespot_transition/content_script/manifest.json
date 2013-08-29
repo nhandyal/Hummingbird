@@ -1,0 +1,36 @@
+{
+    "name": "Hummingbird",
+    "version": "1.0.5",
+    "manifest_version": 2,
+    
+    "description": "A USC couse scheduling assistant",
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+        },
+		
+		"background": {
+				"scripts"	: ["background.js"]
+		},
+
+    "content_scripts": [
+				{
+						"matches": ["http://web-app.usc.edu/soc/*"],
+						"js": ["jquery-1.7.1.min.js","fancybox/jquery.fancybox-1.3.4.pack.js","script.js"],
+						"css" : ["fancybox/jquery.fancybox-1.3.4.css","script.css"],
+						"include_globs": ["http://web-app.usc.edu/soc/?????/*"]
+				}
+		],
+		
+		"web_accessible_resources": [
+				"images/plus-icon.png",
+				"fancybox/fancy_close.png",
+				"images/loading.gif"
+		],
+		
+		"permissions" : [
+				"http://web-app.usc.edu/ws/soc/api/*",
+				"http://www.hummingbirdapplication.com/application/extension/*"
+		]
+}
