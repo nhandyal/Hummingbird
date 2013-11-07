@@ -1,0 +1,88 @@
+*{
+		font-family: 'Cantarell', sans-serif;
+		font-weight:700;
+		color:rgb(80,80,80);
+		padding:0px;
+		margin:0px;
+}
+#header{
+		width:100%;
+		height:150px;
+		background:black;
+}
+#header-img-container{
+		width:64px;
+		margin:auto;
+		padding-top:20px;
+}
+
+/* 		----------------------------------------- Page Content ------------------------------ */
+#page-content{
+		width:900px;
+		margin:auto;
+}
+#error-message{
+		width:100%;
+		color:rgb(205,20,20);
+		font-size:20px;
+		text-align:center;
+		margin-bottom:20px;
+}
+#login-wrapper{
+		width:550px;
+		margin:auto;
+}
+#login-wrapper #login .textfields{
+		width:200px;
+		height:25px;
+		margin-left:10px;
+		margin-right:10px;
+		text-align:center;
+		background:black;
+		color:rgb(205,20,20);
+		border:none;
+}
+input::-webkit-input-placeholder {
+		color:rgb(205,20,20);
+		font-family: 'Cantarell', sans-serif;
+		font-weight:700;
+}
+#login-wrapper #login .textfields:focus{
+		outline:solid;
+		outline-color:rgb(205,20,20);
+		outline-width:medium;
+}
+#login-wrapper #login #login-submit{
+		display:inline-block;
+		height:25px;
+		width:100px;
+		background:black;
+		color:rgb(205,20,20);
+		border:none;
+		padding-top:3px;
+}
+#login-wrapper #login #login-submit:hover{
+		cursor:pointer;
+		color:black;
+		background:rgb(205,20,20);
+		border:1px solid;
+}
+#login-wrapper #login #login-submit:active{
+		outline:solid;
+		outline-width:thin;
+		background:rgb(191,0,0);
+}
+#login-persistence{
+		margin-left:10px;
+}
+#login-label{
+		margin-left:12px;
+		color:rgb(60,60,60);
+		font-size:12px;
+}
+#login-wrapper #login a{
+		margin-left:112px;
+		text-decoration:none;
+		color:rgb(60,60,60);
+		font-size:12px;
+}

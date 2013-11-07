@@ -99,49 +99,49 @@
 								<p>You're almost done!</p>
 								<p id="message">
 										To make sure you're not trying to sign up your mom, we need to verify your email address. You should be recieving an e-mail from us shortly with further instructions.
-										Until then, checkout how Coursespot works or download our awesome Chrome extension! If you haven't done so already you'll need to in a bit anyway, so might as well do it now.
+										Until then, checkout how Coursespot works or download our awesome <a href='https://chrome.google.com/webstore/detail/adbpoijidlpgogcfalangpplfoigeomn'>Chrome extension</a>! If you haven't done so already you'll need to in a bit anyway, so might as well do it now.
 								</p>
 						</div>
 						<div id="works-master-container">
-								<div id="works-container">
-										<div id="prev" class="works-child uiWorksNavigationControls">
-												<img src="../images/br_prev.png" width="48" height="48" alt="prev"/>
-										</div>
-										<div id="works-content-wrapper" class="works-child">
-												<div id="0" class="element current">
-														<div class="step-holder">
-																<img src="../images/steps/step0.png" width="800" height="350" alt="How it works"/>
-														</div>
+										<div id="works-container">
+												<div id="prev" class="works-child uiWorksNavigationControls">
+														<img class="works-ui-control" src="../../images/br_prev.png" width="48" height="48" alt="prev"/>
 												</div>
-												<div id="1" class="element">
-														<div class="step-holder">
-																<img src="../images/steps/step1.png" width="800" height="350" alt="step1"/>
+												<div id="works-content-wrapper" class="works-child">
+														<div id="0" class="element current">
+																<div class="step-holder">
+																		<img src="../../images/steps/step0.png" width="800" height="350" alt="step0"/>
+																</div>
 														</div>
+														<div id="1" class="element">
+																<div class="step-holder">
+																		<img src="../../images/steps/step1.png" width="800" height="350" alt="step1"/>
+																</div>
+														</div>
+														<div id="2" class="element">
+																<div class="step-holder">
+																		<a href='https://chrome.google.com/webstore/detail/adbpoijidlpgogcfalangpplfoigeomn'><img src="../../images/steps/step2.png" width="800" height="350" alt="step2"/></a>
+																</div>
+														</div>
+														<div id="3" class="element">
+																<div class="step-holder">
+																		<img src="../../images/steps/step3.png" width="800" height="350" alt="step3"/>
+																</div>
+														</div>
+														<div id="4" class="element">
+																<div class="step-holder">
+																		<img src="../../images/steps/step4.png" width="800" height="350" alt="step4"/>
+																</div>
+														</div>
+														<div class="clear"></div>
 												</div>
-												<div id="2" class="element">
-														<div class="step-holder">
-																<a href='https://chrome.google.com/webstore/detail/adbpoijidlpgogcfalangpplfoigeomn'><img src="../images/steps/step2.png" width="800" height="350" alt="step2"/></a>
-														</div>
-												</div>
-												<div id="3" class="element">
-														<div class="step-holder">
-																<img src="../images/steps/step3.png" width="800" height="350" alt="step3"/>
-														</div>
-												</div>
-												<div id="4" class="element">
-														<div class="step-holder">
-																<img src="../images/steps/step4.png" width="800" height="350" alt="step4"/>
-														</div>
+												<div id="next" class="works-child uiWorksNavigationControls">
+														<img class="works-ui-control" src="../../images/br_next.png" width="48" height="48" alt="next"/>
 												</div>
 												<div class="clear"></div>
 										</div>
-										<div id="next" class="works-child uiWorksNavigationControls">
-												<img src="../images/br_next.png" width="48" height="48" alt="next"/>
-										</div>
-										<div class="clear"></div>
 								</div>
-						</div>
-						<div class="clear"></div>
+					<div class="clear"></div>	
 				</div>
 		</body>
 </html>

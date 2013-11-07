@@ -53,3 +53,6 @@
 .clear{
 		clear:both;
 }
+.works-ui-control:hover{
+	cursor: pointer;
+}

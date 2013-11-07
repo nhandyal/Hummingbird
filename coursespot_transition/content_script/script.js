@@ -193,12 +193,14 @@ function addCourse(){
 						'dept'				: $('#hb-dept').val()
 				},
 				function(response){
+						setTimeout(function(){
 						var jsonResponse = JSON.parse(response);
 						var fancyBoxHTML = "<div style='font-size:14px; text-align:center; width:400px'>"+jsonResponse.message+"</div>";
 						$.fancybox({
 								'content'			: fancyBoxHTML,
 								'overlayOpacity'	: 0.7
 						});
+					},1000);
 				}
 		);
 }

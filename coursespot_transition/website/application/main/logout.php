@@ -1,6 +1,6 @@
 <?php
 		
-		session_set_cookie_params(0, '/', '.hummingbirdapplication.com');
+		session_set_cookie_params(0, '/', '.coursespot.net');
 		session_start();
 		
 		// Destroy Session

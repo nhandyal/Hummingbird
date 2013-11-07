@@ -1,0 +1,1 @@
+[17-Jun-2012 13:50:49] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/nhandyal/public_html/application/global/includes/db-open.php on line 2

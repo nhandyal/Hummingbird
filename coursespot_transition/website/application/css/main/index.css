@@ -6,7 +6,7 @@
 		color:rgb(80,80,80);
 }
 body{
-		width:1280px;
+		
 }
 #black-overlay{
 		display:none;
@@ -154,7 +154,7 @@ body{
 #welcome-wrapper{
 		display:inline-block;
 		position:relative;
-		top:-57px;
+		top:-45px;
 		left:102px;
 		height:0px;
 }
@@ -650,7 +650,7 @@ body{
 #first-login{
 		width:90%;
 		margin:auto;
-		margin-top:50px;
+		margin-top:75px;
 }
 #welcome-message{
 		text-align:center;

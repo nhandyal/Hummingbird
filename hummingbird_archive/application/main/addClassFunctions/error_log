@@ -1,0 +1,405 @@
+[11-Jul-2012 15:04:29] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 13
+[11-Jul-2012 15:05:48] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 13
+[11-Jul-2012 15:06:06] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 13
+[11-Jul-2012 15:28:55] PHP Fatal error:  Call to undefined function  length() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 17
+[11-Jul-2012 15:29:44] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 17
+[11-Jul-2012 15:42:59] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 15
+[11-Jul-2012 17:37:56] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 23
+[11-Jul-2012 17:38:18] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 23
+[11-Jul-2012 17:38:43] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 23
+[12-Jul-2012 00:41:32] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 86
+[12-Jul-2012 00:42:42] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 87
+[12-Jul-2012 00:43:05] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 87
+[12-Jul-2012 00:43:55] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 87
+[12-Jul-2012 00:44:38] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 87
+[12-Jul-2012 00:45:51] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 87
+[12-Jul-2012 00:47:02] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 87
+[12-Jul-2012 00:47:59] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 87
+[12-Jul-2012 00:50:59] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 87
+[12-Jul-2012 00:52:03] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 88
+[12-Jul-2012 00:52:22] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 51
+[12-Jul-2012 00:52:50] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 51
+[12-Jul-2012 00:53:56] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 65
+[12-Jul-2012 00:54:39] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 67
+[12-Jul-2012 02:27:51] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 91
+[12-Jul-2012 02:27:52] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 91
+[12-Jul-2012 02:28:22] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 91
+[12-Jul-2012 02:28:32] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 91
+[12-Jul-2012 02:30:09] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 92
+[12-Jul-2012 02:35:38] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 93
+[12-Jul-2012 02:39:38] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 62
+[12-Jul-2012 02:39:48] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 62
+[12-Jul-2012 02:41:09] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 65
+[12-Jul-2012 02:50:43] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 65
+[12-Jul-2012 02:52:59] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 66
+[12-Jul-2012 02:54:08] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 66
+[12-Jul-2012 02:55:36] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 66
+[12-Jul-2012 02:55:43] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 66
+[12-Jul-2012 02:55:59] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 66
+[12-Jul-2012 02:57:01] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 66
+[12-Jul-2012 12:35:13] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 12
+[12-Jul-2012 12:40:05] PHP Warning:  Wrong parameter count for curl_errno() in /home/nhandyal/public_html/application/global/includes/gbFunctions.php on line 33
+[12-Jul-2012 15:26:56] PHP Warning:  require_once(../global/includes/db-open.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/nhandyal/public_html/application/main/addClassFunctions/addClass.php on line 2
+[12-Jul-2012 15:26:56] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../global/includes/db-open.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nhandyal/public_html/application/main/addClassFunctions/addClass.php on line 2
+[12-Jul-2012 15:26:57] PHP Warning:  require_once(../global/includes/db-open.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/nhandyal/public_html/application/main/addClassFunctions/addClass.php on line 2
+[12-Jul-2012 15:26:57] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../global/includes/db-open.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nhandyal/public_html/application/main/addClassFunctions/addClass.php on line 2
+[12-Jul-2012 15:27:00] PHP Warning:  require_once(../global/includes/db-open.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/nhandyal/public_html/application/main/addClassFunctions/addClass.php on line 2
+[12-Jul-2012 15:27:00] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../global/includes/db-open.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nhandyal/public_html/application/main/addClassFunctions/addClass.php on line 2
+[12-Jul-2012 15:27:14] PHP Warning:  require_once(../global/includes/db-open.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/nhandyal/public_html/application/main/addClassFunctions/addClass.php on line 2
+[12-Jul-2012 15:27:14] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../global/includes/db-open.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nhandyal/public_html/application/main/addClassFunctions/addClass.php on line 2
+[12-Jul-2012 18:00:00] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/nhandyal/public_html/application/main/addClassFunctions/addClass.php on line 30
+[03-Aug-2012 14:11:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 15
+[03-Aug-2012 14:11:24] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 15
+[03-Aug-2012 14:11:29] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 15
+[03-Aug-2012 14:11:37] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 15
+[03-Aug-2012 14:11:44] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 15
+[03-Aug-2012 14:11:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 15
+[03-Aug-2012 14:11:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 15
+[03-Aug-2012 14:11:59] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 15
+[03-Aug-2012 14:12:02] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 15
+[03-Aug-2012 14:12:07] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 15
+[03-Aug-2012 14:12:12] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments.php on line 15
+[10-Dec-2012 13:21:13] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 8
+[10-Dec-2012 13:21:13] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 30
+[18-Dec-2012 22:45:58] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[18-Dec-2012 22:45:58] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[18-Dec-2012 22:45:58] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[18-Dec-2012 22:45:58] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:30:53] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:32:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:33:15] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:34:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 24
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:05] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 22
+[04-Jan-2013 21:36:38] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:36:49] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 23
+[04-Jan-2013 21:49:41] PHP Parse error:  syntax error, unexpected '{' in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 21
+[04-Jan-2013 21:53:48] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 21
+[14-Jan-2013 10:47:03] PHP Fatal error:  Cannot redeclare sort() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 93
+[14-Jan-2013 10:47:44] PHP Fatal error:  Cannot redeclare sort() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 95
+[14-Jan-2013 10:48:36] PHP Fatal error:  Cannot redeclare sort() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 95
+[14-Jan-2013 10:48:37] PHP Fatal error:  Cannot redeclare sort() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 95
+[14-Jan-2013 10:49:17] PHP Fatal error:  Cannot redeclare sort() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 96
+[14-Jan-2013 10:49:40] PHP Fatal error:  Cannot redeclare sort() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 96
+[14-Jan-2013 10:49:40] PHP Fatal error:  Cannot redeclare sort() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 96
+[14-Jan-2013 10:49:51] PHP Fatal error:  Cannot redeclare sort() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 96
+[14-Jan-2013 10:51:44] PHP Fatal error:  Cannot redeclare sort() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 96
+[14-Jan-2013 10:52:14] PHP Fatal error:  Cannot redeclare sort() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 97
+[14-Jan-2013 10:54:07] PHP Fatal error:  Call to undefined function  qssort() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 93
+[14-Jan-2013 11:07:37] PHP Fatal error:  Call to undefined function  size() in /home/nhandyal/public_html/application/main/addClassFunctions/loadDepartments_new.php on line 54
+[19-Apr-2013 18:40:27] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[19-Apr-2013 18:40:27] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[19-Apr-2013 18:40:27] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[19-Apr-2013 18:40:27] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[19-Apr-2013 18:50:50] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[19-Apr-2013 18:50:50] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[19-Apr-2013 18:50:50] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[19-Apr-2013 18:50:50] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[23-Apr-2013 08:44:31] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[23-Apr-2013 08:44:31] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[23-Apr-2013 08:44:31] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[23-Apr-2013 08:44:31] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[23-Apr-2013 13:32:31] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 8
+[23-Apr-2013 13:32:31] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 30
+[07-May-2013 22:25:46] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[07-May-2013 22:25:46] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[07-May-2013 22:25:46] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[07-May-2013 22:25:46] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[08-May-2013 00:10:42] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[08-May-2013 00:10:42] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[08-May-2013 00:10:42] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[08-May-2013 00:10:42] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[09-May-2013 02:42:06] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[09-May-2013 02:42:06] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[09-May-2013 02:42:06] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[09-May-2013 02:42:06] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[09-May-2013 02:42:35] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[09-May-2013 02:42:35] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[09-May-2013 02:42:35] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[09-May-2013 02:42:35] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[21-Jun-2013 20:20:30] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/addClass.php on line 124
+[21-Jun-2013 20:22:36] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/main/addClassFunctions/addClass.php on line 124
+[18-Aug-2013 20:34:18] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[18-Aug-2013 20:34:18] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[18-Aug-2013 20:34:18] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[18-Aug-2013 20:34:18] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[18-Aug-2013 21:22:09] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[18-Aug-2013 21:22:09] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[18-Aug-2013 21:22:09] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[18-Aug-2013 21:22:09] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 82
+[21-Aug-2013 01:26:38] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 8
+[21-Aug-2013 01:26:38] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 30
+[21-Aug-2013 01:26:43] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 8
+[21-Aug-2013 01:26:43] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 30
+[21-Aug-2013 01:28:13] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 8
+[21-Aug-2013 01:28:13] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 30
+[21-Aug-2013 01:28:36] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 8
+[21-Aug-2013 01:28:36] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 30
+[21-Aug-2013 01:28:41] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 8
+[21-Aug-2013 01:28:41] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 30
+[21-Aug-2013 01:28:46] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 8
+[21-Aug-2013 01:28:46] PHP Warning:  Invalid argument supplied for foreach() in /home2/nhandyal/public_html/application/main/addClassFunctions/loadCourses.php on line 30

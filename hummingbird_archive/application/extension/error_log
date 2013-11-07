@@ -1,0 +1,62 @@
+[14-Jun-2012 21:48:24] PHP Warning:  require_once(global/includes/gbFunctions.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/nhandyal/public_html/application/extension/ex-loggedIn.php on line 3
+[14-Jun-2012 21:48:24] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'global/includes/gbFunctions.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nhandyal/public_html/application/extension/ex-loggedIn.php on line 3
+[15-Jun-2012 01:23:46] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-loggedIn.php on line 23
+[15-Jun-2012 01:23:46] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-loggedIn.php on line 23
+[15-Jun-2012 01:23:54] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-loggedIn.php on line 23
+[15-Jun-2012 01:29:21] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nhandyal/public_html/application/extension/ex-loggedIn.php on line 23
+[15-Jun-2012 01:32:26] PHP Fatal error:  Cannot use object of type stdClass as array in /home/nhandyal/public_html/application/extension/ex-loggedIn.php on line 29
+[15-Jun-2012 02:00:32] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/nhandyal/public_html/application/extension/ex-loggedIn.php on line 30
+[15-Jun-2012 02:00:32] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/nhandyal/public_html/application/extension/ex-loggedIn.php on line 30
+[15-Jun-2012 02:00:32] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/nhandyal/public_html/application/extension/ex-loggedIn.php on line 30
+[15-Jun-2012 02:00:32] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/nhandyal/public_html/application/extension/ex-loggedIn.php on line 30
+[15-Jun-2012 02:00:32] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/nhandyal/public_html/application/extension/ex-loggedIn.php on line 30
+[15-Jun-2012 02:00:32] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/nhandyal/public_html/application/extension/ex-loggedIn.php on line 30
+[15-Jun-2012 02:33:38] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'nhandyal'@'localhost' (using password: NO) in /home/nhandyal/public_html/application/extension/ex-addClass.php on line 33
+[15-Jun-2012 02:33:38] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/nhandyal/public_html/application/extension/ex-addClass.php on line 33
+[15-Jun-2012 02:33:38] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/nhandyal/public_html/application/extension/ex-addClass.php on line 34
+[15-Jun-2012 02:33:38] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'nhandyal'@'localhost' (using password: NO) in /home/nhandyal/public_html/application/extension/ex-addClass.php on line 37
+[15-Jun-2012 02:33:38] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/nhandyal/public_html/application/extension/ex-addClass.php on line 37
+[18-Jun-2012 02:42:04] PHP Fatal error:  Call to undefined method DateTime::setTimestamp() in /home/nhandyal/public_html/application/extension/ex-addClass.php on line 34
+[18-Jun-2012 02:49:04] PHP Fatal error:  Call to undefined method DateTime::setTimestamp() in /home/nhandyal/public_html/application/extension/ex-addClass.php on line 32
+[18-Jun-2012 02:49:29] PHP Fatal error:  Call to undefined method DateTime::setTimestamp() in /home/nhandyal/public_html/application/extension/ex-addClass.php on line 32
+[18-Jun-2012 02:52:27] PHP Fatal error:  Call to undefined method DateTime::setTimestamp() in /home/nhandyal/public_html/application/extension/ex-addClass.php on line 32
+[18-Jun-2012 02:53:40] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClass.php on line 119
+[18-Jun-2012 02:59:05] PHP Warning:  mysqli_commit() expects parameter 1 to be mysqli, null given in /home/nhandyal/public_html/application/extension/ex-addClass.php on line 154
+[18-Jun-2012 21:52:10] PHP Fatal error:  Call to undefined function  mysqli() in /home/nhandyal/public_html/application/extension/ex-addClass.php on line 136
+[18-Jun-2012 21:53:02] PHP Fatal error:  Call to undefined function  mysqli() in /home/nhandyal/public_html/application/extension/ex-addClass.php on line 136
+[24-Jul-2012 01:53:58] PHP Warning:  require_once(application/global/includes/db-open.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/nhandyal/public_html/application/extension/ex-login.php on line 15
+[24-Jul-2012 01:53:58] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'application/global/includes/db-open.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nhandyal/public_html/application/extension/ex-login.php on line 15
+[24-Jul-2012 01:54:31] PHP Warning:  require_once(application/global/includes/db-open.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/nhandyal/public_html/application/extension/ex-login.php on line 15
+[24-Jul-2012 01:54:31] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'application/global/includes/db-open.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nhandyal/public_html/application/extension/ex-login.php on line 15
+[30-Jul-2012 20:47:22] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 70
+[30-Jul-2012 20:49:11] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 70
+[30-Jul-2012 20:52:12] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 71
+[17-Apr-2013 03:56:35] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[17-Apr-2013 11:27:14] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[28-Apr-2013 17:03:43] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[28-Apr-2013 17:04:00] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[28-Apr-2013 17:04:18] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[28-Apr-2013 17:05:18] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[28-Apr-2013 17:07:21] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[28-Apr-2013 17:09:09] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[28-Apr-2013 17:09:45] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[28-Apr-2013 17:11:12] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[29-Apr-2013 18:06:49] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 01:46:22] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 01:46:34] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 01:46:48] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 01:47:07] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 01:47:15] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 01:48:44] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 01:49:03] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 01:49:20] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 01:50:08] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 01:50:33] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 01:52:48] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 01:54:45] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 02:03:08] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 02:13:48] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 04:47:24] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 14:18:48] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 14:23:38] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123
+[30-Apr-2013 14:53:06] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/nhandyal/public_html/application/extension/ex-addClassV2.php on line 123

@@ -1,0 +1,2 @@
+[15-Jul-2012 02:58:23] PHP Warning:  require_once(../global/includes/gbFunctions.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/nhandyal/public_html/application/index.php on line 2
+[15-Jul-2012 02:58:23] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../global/includes/gbFunctions.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nhandyal/public_html/application/index.php on line 2

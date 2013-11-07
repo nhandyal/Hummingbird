@@ -1,6 +1,6 @@
 {
     "name": "Coursespot",
-    "version": "1.0.6",
+    "version": "1.0.8",
     "manifest_version": 2,
     
     "description": "A USC couse scheduling assistant",

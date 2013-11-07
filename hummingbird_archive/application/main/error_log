@@ -1,0 +1,28 @@
+[09-Jun-2012 19:08:54] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/nhandyal/public_html/application/main/index.php:3) in /home/nhandyal/public_html/application/main/index.php on line 5
+[29-Jun-2012 20:47:42] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /home/nhandyal/public_html/application/main/index.php on line 290
+[05-Jul-2012 21:33:12] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /home/nhandyal/public_html/application/main/settings.php on line 442
+[06-Jul-2012 00:11:42] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/nhandyal/public_html/application/main/index.php on line 73
+[15-Jul-2012 02:52:33] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 68
+[15-Jul-2012 02:52:44] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 68
+[30-Jul-2012 23:20:37] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[30-Jul-2012 23:21:14] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[31-Jul-2012 13:25:16] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[08-Aug-2012 19:34:15] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[08-Nov-2012 19:06:24] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[09-Nov-2012 13:06:31] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[14-Nov-2012 14:38:29] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[20-Nov-2012 16:38:57] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[20-Nov-2012 16:40:37] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[08-Dec-2012 05:59:20] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[10-Jan-2013 13:32:26] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[10-Jan-2013 13:32:45] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[10-Jan-2013 13:34:15] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[10-Jan-2013 13:41:45] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[10-Jan-2013 13:44:13] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[10-Jan-2013 14:02:02] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[10-Jan-2013 14:02:20] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[10-Jan-2013 14:09:23] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[10-Jan-2013 14:18:27] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[10-Jan-2013 15:27:48] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[19-Apr-2013 18:35:30] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70
+[10-Jul-2013 09:09:16] PHP Warning:  Invalid argument supplied for foreach() in /home/nhandyal/public_html/application/main/index.php on line 70

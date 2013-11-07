@@ -94,7 +94,7 @@
 						$error_message = "You must be logged in to view this page.";
 						break;
 				case 4:
-						$error_message = "Awesome! Your account has been verified, login below to start using Hummingbird.";
+						$error_message = "Awesome! Your account has been verified, login below to start using Coursespot.";
 						break;
 				case 5:
 						$error_message = "Uhoh, looks like this account hasn't been verified. Check the e-mail you provided for instructions on how to verify your account.";
@@ -105,7 +105,7 @@
 <!DOCTYPE html>
 <html>
 		<head>
-				<title>Login | Hummingbird</title>
+				<title>Login | Coursespot</title>
 				<link href='http://fonts.googleapis.com/css?family=Cantarell:400,700' rel='stylesheet' type='text/css'/>
 				<link href='css/login.css' rel='stylesheet' type='text/css'/>
 				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
