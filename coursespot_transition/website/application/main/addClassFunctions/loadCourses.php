@@ -1,10 +1,14 @@
 <?php
+		// edit
 		require_once("../../global/includes/gbFunctions.php");
 		
 		$targetURL =  "http://web-app.usc.edu/ws/soc/api/classes/".$_GET['dept']."/".$_GET['term'];
 		$offeredCourses = json_decode(curlURL($targetURL))->OfferedCourses->course;
 		$listData = "";
+		$sectionData = "";
+		$courseIndex = 0;
 		$listData .= "<ul class='ui-drop-menu ui-select' id='ui-course-select'>";
+		
 		foreach($offeredCourses as $course){
 				$sequence = "";
 				$suffix = "";
@@ -21,17 +25,17 @@
 						$suffix = $course->CourseData->suffix;
 				
 				// add li element with course data
-				$listData .= "<li id='$deptName-$courseNumber'>$courseNumber$sequence$suffix: $courseTitle</li>";
-		}
-		$listData .= "</ul>";
-		
-		$sectionData = "";
-		$courseIndex = 0;
-		foreach($offeredCourses as $course){
+				$courseID = "$courseNumber$sequence$suffix";
+				$listData .= "<li id='$deptName-$courseID'>$courseID: $courseTitle</li>";
+
+
+				// Build sectionData
+
+
 				$deptName = $course->CourseData->prefix;
 				$courseNumber = $course->CourseData->number;
 																															// OPEN CONTAINMENT DIV TAG			
-				$sectionData .= "<div id='$deptName-$courseNumber-data'>"; 													// this div is the hidden container. We will take its contents
+				$sectionData .= "<div id='$deptName-$courseID-data'>"; 													// this div is the hidden container. We will take its contents
 																															// and insert them into the section-data-container. ID = deptName-courseNumber-D=data.
 																															// referenced by department li select id.
 				$sectionData .= "<ul class='ui-drop-menu ui-select section-data-ul'>";
@@ -127,11 +131,11 @@
 				
 				$courseIndex += 1;
 		}
-		
-		
-		
+
+		$listData .= "</ul>";
 		$response['listData'] = $listData;
 		$response['sectionData'] = $sectionData;
+		
 		echo json_encode($response);
 		
 		exit(0);
