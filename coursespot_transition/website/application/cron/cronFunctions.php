@@ -1,7 +1,8 @@
 <?php
 		
-		// UPDATE DEPARTMENT JSON DATA
 		require_once("../global/includes/db-open-as-object.php");
+		// UPDATE DEPARTMENT JSON DATA
+		
 		
 		// variables we will later bind to the prepared statement
 		$servResponse;
@@ -89,12 +90,13 @@
 		$deleteQuery = "DELETE FROM users WHERE date_created < NOW() - INTERVAL 12 HOUR AND vrf_email = 0";
 		mysqli_query($link,$deleteQuery);
 		
-		
+		// END MARK
+
 		// CHECK COURSE AVAILABILITY
 		
+
 		$query = "SELECT term, deptAbbreviation, JSONData FROM departments";
 		$department_result = mysqli_query($link, $query);
-		
 		while($department_r = mysqli_fetch_assoc($department_result)){
 				$term = $department_r['term'];
 				$deptAbbreviation = $department_r['deptAbbreviation'];
@@ -103,12 +105,13 @@
 				
 				$query = "SELECT sectionNumber, courseIndex, sectionIndex FROM courses WHERE term=$term AND deptAbbreviation='$deptAbbreviation'";
 				$course_result = mysqli_query($link,$query);
+
 				while($course_r = mysqli_fetch_assoc($course_result)){
 						$sectionNumber = $course_r['sectionNumber'];
 						$courseIndex = $course_r['courseIndex'];
 						$sectionIndex = $course_r['sectionIndex'];
 						
-						
+												
 						$numberRegistered;
 						$spacesAvailable;
 						$seatOpen = 0;
@@ -131,11 +134,11 @@
 						}
 						//or die(mysqli_error($link)." - ".$courseUpdate);
 				}
+				$count++;
 		}
 		
 		
 		// SEND COURSE NOTIFICATIONS
-		
 		
 		$query = "SELECT term, deptAbbreviation, sectionNumber FROM courses WHERE seatOpen=1";
 		$course_result = mysqli_query($link,$query);
@@ -204,7 +207,6 @@
 						mysqli_query($link,$updateQuery);
 				}
 		}
-		
 		// CLOSE DB CONNECTION -- PROCEDURAL
 		require_once("../global/includes/db-close.php");
 

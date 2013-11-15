@@ -5,18 +5,20 @@
 		$subject = $_POST['type'];
 		$message = $_POST['name']." -- ".$_POST['email']." -- ".date("m-d-y -- h:i A" ,time())."\n".$_POST['message'];
 		$headers = "From: ".$_POST['email'] . "\r\n";
-		
 
-		// text notify for support
-		$to_support = "4084276883@txt.att.net";
-		$message_support = "New Support email";
 
 		if(mail($to,$subject,$message,$headers)){
 				$response['status'] = 0;
 				$response['message'] = "<div id='serv-response'>Thank you for your comments. We value your feedback and hope to make Coursespot better with your support.</div>";
-				echo json_encode($response);
 				
-				mail($to_support, $message);
+
+				// text support
+				$headers = "From: no_reply@coursespot.net" . "\r\n";
+				$message = "New Support Email";		
+				ini_set('sendmail_from','no_reply@coursespot.net');		
+				$text_status = mail("4084276883@txt.att.net","",$message,$headers,"-fno_reply@coursespot.net");
+
+				$response['test'] = "text notify should have been sent: ".$text_status;
 				exit(0);
 		}
 		else{
