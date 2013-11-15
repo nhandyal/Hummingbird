@@ -3,3 +3,5 @@ website/application/global/includes/db-open.php
 .DS_Store
 *.txt
 *.rtf
+
+coursespot_transition/website/contact-support.php
