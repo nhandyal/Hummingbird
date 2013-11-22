@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<title>Coursespot</title>
+				<style>
+					body {
+						margin: 0px;
+						padding: 0px;
+						font-family: Verdana, Geneva, sans-serif;
+					}
+
+					/************* HEADER ELEMENTS *************/
+
+					#coursespot-index-header {
+						width: 100%;
+						height: 40px;
+						margin-top: 1%;
+					}
+					#coursespot-index-header-content {
+						min-width: 800px;
+						max-width: 1100px;
+						height: 100%;
+						margin: auto;
+						position: relative;
+					}
+					#header_logo {
+						position: absolute;
+						font-size: 2em;
+					}
+					#header_actionElements {
+						position: absolute;
+						bottom: 0%;
+						right: 0%;
+						color: rgb(204, 40, 40);
+					}
+					#header_actionElements #login-form-container {
+						display: none;
+						position: relative;
+						top: 5px;
+					}
+					#header_actionElements .textfields {
+						width: 150px;
+						text-align: center;
+						color: rgb(100, 100, 100);
+					}
+					#header_actionElements .textfields:focus {
+						outline: 1px solid rgb(205, 20, 20);
+					}
+					#header_actionElements #login-submit {
+						background: white;
+						border:none;
+						font-size: 0.9em;
+						color: rgb(204, 40, 40);
+					}
+					#header_actionElements #login-submit:hover {
+						cursor: pointer;
+						color: rgb(255, 0, 0);
+					}
+					#header_actionElements #login-supportElements {
+						font-size: 0.7em;
+						color: rgb(60, 60, 60);
+					}
+					#header_actionElements #login-persistence {
+						margin-left: 0px;
+					}
+					#header_actionElements #login-fPassword{
+						margin-left: 60px;
+						text-decoration: none;
+						color: rgb(60, 60, 60);
+					}
+
+
+
+					#coursespot-page-content {
+						min-width: 800px;
+						max-width: 1100px;
+						margin: auto;
+						margin-top: 1.5%;
+					}
+					.is_canvas_wrapper {
+					    width: 100%;
+					    display: block;
+					    position: relative;
+					}
+					.is_canvas_wrapper:after {
+					    padding-top: 41.67%; 	/* 12:5 aspect ratio */
+					    display: block;
+					    content: '';
+					}
+					.is_canvas {
+					    position: absolute;
+					    top: 0; bottom: 0; right: 0; left: 0; /*fill parent*/
+					}
+					#is_canvas1 {
+						background-image: url("images/splash_1.png");
+					}
+					#is_canvas1_content {
+						position: absolute;
+						top: 33%; right: 2%;
+						width: 26%;
+					}
+					#is_canvas1_content p {
+						margin: 0px;
+						color: white;
+						font-size: 2.5em; font-weight: lighter;
+					}
+
+					/**************** LOGO STYLING *****************/
+					.logo_course {
+						color: rgb(60, 60, 60);
+					}
+					.logo_spot {
+						color: rgb(204, 40, 40);
+					}
+
+
+					/************** ACTION ELEMENTS ****************/
+					.actionElement:hover {
+						cursor: pointer;
+					}
+					.actionElement.createAccount {
+						width: 180px;
+						margin: 5px 0px 5px 0px;
+
+						text-align: center;
+						line-height: 30px;
+
+						color: rgb(215, 215, 215);
+						background: -webkit-linear-gradient(top,rgb(227, 75, 75), rgb(204, 40, 40) );
+
+						border-radius: 3px;
+						border: 1px solid rgb(204, 40, 40);
+					}
+					.actionElement.createAccount:hover {
+						background: -webkit-linear-gradient(top,rgb(209, 70, 70), rgb(171, 32, 32) );
+						border-color: rgb(171, 32, 32);
+					}
+				</style>
+				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+				<script>
+				$('document').ready(function(){
+				
+					// scroll the page when a user clicks on a navigation element
+					$('.ui-menu-scrollable').click(function(){
+							var targetElement = "";
+							switch($(this).text()){
+									case "About":
+											targetElement = "#about-container";
+											break;
+									case "Register":
+											targetElement = "#registration-master-container";
+											break;
+									case "Contact":
+											targetElement = "#contact-container";
+											break;
+							}
+							var targetPosition = ($(targetElement).position().top)-20;
+							$('html, body').animate({ scrollTop: targetPosition},650,function(){});
+							return false;
+					});
+					
+					// show the login box 
+					$('#header_signin').click(function(){
+						$('#header_signin').css({'display':'none'})
+						$('#login-form-container').css({'display':'block'});
+						$("#login-email").focus();
+					});
+					
+					
+					// How it works canvas controls next
+					$('#next').click(function(){
+							var nextId = '#';
+							var currentId = $('#works-content-wrapper .current').attr('id');
+							if(currentId == 4)
+									nextId += 0;
+							else
+									nextId += (parseInt(currentId,10) + 1);
+							
+							currentId = '#'+parseInt(currentId,10);
+							
+							changeCanvas(currentId,nextId);
+							
+					});
+					
+					
+					// How it works canvas controls prev
+					$('#prev').click(function(){
+							var nextId = '#';
+							var currentId = $('#works-content-wrapper .current').attr('id');
+							if(currentId == 0)
+									nextId += 4;
+							else
+									nextId += (parseInt(currentId,10) - 1);
+							
+							currentId = '#'+parseInt(currentId,10);
+							
+							changeCanvas(currentId,nextId);
+					});
+					
+					
+					// Show password error if a user leaves it blank
+					$('#pwd').blur(function(){
+							if(($('#pwd').val()).length < 6)
+									$('#pwd-error').css({"opacity":1});
+							else
+									$('#pwd-error').css({"opacity":0});
+					});
+					
+					
+					// Show conf pwd error if passwords don't match
+					$('#confirm-pwd').blur(function(){
+							var cpwd = $('#confirm-pwd').val();
+							if(cpwd != $('#pwd').val())
+									$('#confirm-pwd-error').css({"opacity":1});
+							else
+									$('#confirm-pwd-error').css({"opacity":0});
+					});
+					
+					// verify password field is filled and password and conf password match and password length is at least 6 characters long
+					$('#registration-form').submit(function(){
+							if($('#confirm-pwd').val() == $('#pwd').val() && $('#pwd').val() != "" && ($('#pwd').val()).length >= 6)
+									return true;
+							else if($('#confirm-pwd').val() != $('#pwd').val() && $('#pwd').val() != "" ){
+									$('#confirm-pwd-error').css({"opacity":1});
+							}
+							return false;
+					});
+					
+					$('#contact-form').submit(function(){
+							$.post("contact-support.php",{
+											'type'			: $('#type').val(),
+											'name'			:	$('#form-name').val(),
+											'email'			: $('#form-email').val(),
+											'message'		: $('#form-textarea').val()
+									},
+									function(response){
+											var jsonResponse = JSON.parse(response);
+											if(jsonResponse.status == 0){
+													$('#form-container').fadeOut(700,function(){
+															$('#form-container').replaceWith(jsonResponse.message);
+															$('#serv-response').animate({"opacity":1},500,function(){});
+													});
+											}
+									}
+							);
+							return false;
+					});
+					
+			}); // ---------------------------------------------------------------------------------End of document.ready 
+
+
+			// Brings in the next or prev canvas element for how it works
+			function changeCanvas(currentId, nextId){
+					$(currentId).fadeOut(500,function(){
+							$(currentId).removeClass('current');
+							$(nextId).fadeIn(700,function(){
+									$(nextId).addClass('current');
+							});
+					});
+			}
+
+
+			// initializes page elements based on users current screen resolution
+			function initializePage(){
+							
+							var padding = ($(window).height()-150)/2;
+							var mainContainerVerticalOffset = padding;
+					var logoContainerHeight = ($(window).height()/2);
+					
+					$('#main-content-container').css({"padding-top": mainContainerVerticalOffset});
+					$('#logo-container').css({"padding-bottom": padding});
+					$('#works-content-wrapper .current').fadeIn(200);
+			}
+				</script>
+		</head>
+		<body>
+			<div id="coursespot-index-header">
+				<div id="coursespot-index-header-content">
+					<div id="header_logo">
+						<span class="logo_course">COURSE</span><span class="logo_spot">SPOT</span>
+					</div>
+					<div id="header_actionElements">
+						<div id="header_signin" class="actionElement">Sign in</div>
+						<div id="login-form-container">
+							<form action="login.php?err=0" method="post" autocomplete="off">
+								<div class="login-subContainer">
+										<input type="email" class="textfields" id="login-email" name="email" placeholder="e-mail" required="required">
+										<input type="password" class="textfields" id="login-pwd" name="pwd" placeholder="password" required="required">
+										<input type="submit" id="login-submit" value="login">
+								</div>
+								<div id="login-supportElements">
+										<input id="login-persistence" type="checkbox" name="persistence" value="1"><span id="login-label">Remember me</span>
+										<a id="login-fPassword" href="fgpwd.php">Forgot your password?</a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="coursespot-page-content">
+				<div id = "intro-slideshow">
+					<div class = "is_canvas_wrapper">
+					    <div id="is_canvas1" class = "is_canvas">
+					         <div id="is_canvas1_content">
+					         	<p>Be the first to know when full classes have space</p>
+					         	<div class = "actionElement createAccount">
+					         		Create an Account
+					         	</div>
+					         </div>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</body>
+</html>
