@@ -119,7 +119,7 @@
 								$numberRegistered = $departmentData->OfferedCourses->course[$courseIndex]->CourseData->SectionData->number_registered;
 								$spacesAvailable = $departmentData->OfferedCourses->course[$courseIndex]->CourseData->SectionData->spaces_available;
 						}
-						else{
+						else{	
 								$numberRegistered = $departmentData->OfferedCourses->course[$courseIndex]->CourseData->SectionData[$sectionIndex]->number_registered;
 								$spacesAvailable = $departmentData->OfferedCourses->course[$courseIndex]->CourseData->SectionData[$sectionIndex]->spaces_available;
 						}
